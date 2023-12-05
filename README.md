@@ -5,7 +5,13 @@ OSL Data Collaboratory 2023: Groundwork Bridgeport
 
 ## Data Biography
 ### Demographic
-Demographic variables are from the American Community Surveys (2017-2021 5-Year Estimates) via [Social Explorer](https://www.socialexplorer.com/explore-tables). Demographic variables include: Population,
+Demographic variables are from the American Community Surveys (2017-2021 5-Year Estimates) via [Social Explorer](https://www.socialexplorer.com/explore-tables). Demographic variables include:
+- Census Tract GEOID
+- A14006. Median Household Income (In 2021 Inflation Adjusted Dollar)
+- A13003A. Poverty Status in 2020 for Children Under 18
+- A12002. Highest Educational Attainment for Population 25 Years and Over
+- A17005. Unemployment Rate for Civilian Population in Labor Force 16 Years and Over
+- A04001. Hispanic or Latino by Race - Total Population; Hispanic or Latino; Non Hispanic or Latino: White Alone, Black or African American Alone, American Indian and Alaska Native Alone, Asian Alone, Native Hawaiin and Pacticic Islander Alone
 
 ### Energy burden
 - Energy burden and average annual energy costs are from the [US Department of Energy's LEAD Tool](https://www.energy.gov/scep/slsc/lead-tool)https://www.energy.gov/scep/slsc/lead-tool).*
