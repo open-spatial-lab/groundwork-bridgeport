@@ -1,83 +1,940 @@
-Geography ID,Name,Is Disadvantaged Community?,Energy Burden (% income),Avg. Annual Energy Cost ($),Total Households,Household Income,Black/ African American (% pop.),American Indian/ Native Alaskan (% pop.),Asian (% pop.),Native Hawaiian/ Other Pacific Islander (% pop.),White Hispanic or Latino (% pop.),White Non-Hispanic or Latino (% pop.),Two or More Races (% pop.),Other Races (% pop.),Less Than High School (% pop.),High School (% pop.),Associates or Some College (% pop.),Bachelors or Higher (% pop.)
-09001050301,"Census Tract 503.01, Fairfield County, Connecticut",FALSE,2,4794,1465,260106,0,0,3,0,5,83,6,2,1,5,16,78
-09001050600,"Census Tract 506, Fairfield County, Connecticut",FALSE,1,4926,1224,342658,1,1,3,0,6,74,16,0,1,8,20,71
-09001060100,"Census Tract 601, Fairfield County, Connecticut",FALSE,2,4193,963,228618,6,0,2,0,3,78,4,7,1,9,15,75
-09001060200,"Census Tract 602, Fairfield County, Connecticut",FALSE,2,4139,1708,200662,1,0,3,0,7,85,3,2,2,12,32,54
-09001060300,"Census Tract 603, Fairfield County, Connecticut",FALSE,2,4699,1481,273955,0,0,4,0,1,94,2,0,0,14,11,75
-09001060400,"Census Tract 604, Fairfield County, Connecticut",FALSE,2,4928,1509,283668,1,0,2,0,1,94,2,1,0,3,8,89
-09001060500,"Census Tract 605, Fairfield County, Connecticut",FALSE,2,4665,925,289929,2,0,8,0,2,88,1,0,2,6,9,83
-09001060600,"Census Tract 606, Fairfield County, Connecticut",FALSE,1,3913,998,271595,3,0,1,0,4,88,4,0,3,7,9,80
-09001060700,"Census Tract 607, Fairfield County, Connecticut",FALSE,2,4215,1843,249950,3,0,2,0,3,88,3,1,1,5,17,77
-09001060800,"Census Tract 608, Fairfield County, Connecticut",FALSE,2,4210,830,228187,1,0,2,0,4,88,3,2,1,5,16,78
-09001060900,"Census Tract 609, Fairfield County, Connecticut",FALSE,2,4363,903,218984,3,0,5,0,2,86,2,2,4,15,22,58
-09001061000,"Census Tract 610, Fairfield County, Connecticut",FALSE,2,3610,1585,153057,3,0,7,0,5,77,7,2,9,24,18,48
-09001061100,"Census Tract 611, Fairfield County, Connecticut",FALSE,2,4291,1271,246010,0,0,2,0,2,93,1,1,3,6,8,83
-09001061200,"Census Tract 612, Fairfield County, Connecticut",TRUE,2,3918,890,163097,2,0,17,0,8,64,3,6,17,19,22,42
-09001061300,"Census Tract 613, Fairfield County, Connecticut",FALSE,3,3564,1135,123821,1,0,9,0,10,75,4,2,2,25,16,57
-09001061400,"Census Tract 614, Fairfield County, Connecticut",FALSE,2,3197,1315,134088,5,0,14,0,11,55,10,5,6,19,19,56
-09001061500,"Census Tract 615, Fairfield County, Connecticut",FALSE,2,3757,1745,231411,1,0,1,0,2,84,10,2,1,4,10,85
-09001061600,"Census Tract 616, Fairfield County, Connecticut",FALSE,2,3798,2075,200993,0,0,2,0,4,93,1,0,3,8,11,77
-09001070100,"Census Tract 701, Fairfield County, Connecticut",FALSE,2,2554,2350,111681,4,0,3,0,6,72,8,7,5,17,16,62
-09001070200,"Census Tract 702, Fairfield County, Connecticut",TRUE,3,2407,1635,69598,41,0,2,0,16,28,3,10,18,22,31,29
-09001070300,"Census Tract 703, Fairfield County, Connecticut",TRUE,10,2131,406,20646,29,0,0,0,40,2,2,26,46,37,9,8
-09001070400,"Census Tract 704, Fairfield County, Connecticut",TRUE,4,2229,422,54681,20,0,5,0,11,47,3,14,12,28,25,35
-09001070500,"Census Tract 705, Fairfield County, Connecticut",TRUE,6,2736,658,44750,26,0,5,0,33,21,9,6,13,31,19,37
-09001070600,"Census Tract 706, Fairfield County, Connecticut",TRUE,4,1512,1458,41571,39,0,4,0,25,15,5,12,24,15,26,35
-09001070900,"Census Tract 709, Fairfield County, Connecticut",TRUE,7,2960,992,43838,35,0,3,0,22,4,9,27,50,20,23,7
-09001071000,"Census Tract 710, Fairfield County, Connecticut",TRUE,5,3016,1066,60671,37,4,3,0,22,5,10,19,35,30,26,9
-09001071100,"Census Tract 711, Fairfield County, Connecticut",TRUE,5,3042,1251,63354,37,1,6,0,26,7,6,18,36,32,22,10
-09001071200,"Census Tract 712, Fairfield County, Connecticut",TRUE,5,2537,1865,50571,41,0,13,0,21,8,7,10,29,25,36,10
-09001071300,"Census Tract 713, Fairfield County, Connecticut",TRUE,6,2548,1207,44768,46,0,0,0,22,9,9,14,44,29,17,10
-09001071400,"Census Tract 714, Fairfield County, Connecticut",TRUE,6,2863,1102,51622,24,2,0,0,24,14,6,30,35,36,18,12
-09001071600,"Census Tract 716, Fairfield County, Connecticut",TRUE,10,2498,941,24395,39,0,0,0,33,7,8,12,57,25,14,3
-09001071900,"Census Tract 719, Fairfield County, Connecticut",TRUE,5,2835,1601,54028,37,0,1,0,18,20,9,16,17,31,36,16
-09001072000,"Census Tract 720, Fairfield County, Connecticut",TRUE,4,2924,1170,67293,26,0,11,0,26,17,6,15,23,40,18,19
-09001072100,"Census Tract 721, Fairfield County, Connecticut",TRUE,4,2734,2179,73554,24,1,8,1,16,38,2,11,12,30,32,26
-09001072200,"Census Tract 722, Fairfield County, Connecticut",TRUE,4,2647,1655,60176,21,0,5,0,11,46,6,11,16,24,22,37
-09001072300,"Census Tract 723, Fairfield County, Connecticut",TRUE,4,3165,1740,82312,28,0,3,0,15,35,5,15,15,24,43,18
-09001072400,"Census Tract 724, Fairfield County, Connecticut",TRUE,4,3293,931,92097,28,1,4,0,21,13,5,28,15,33,30,22
-09001072500,"Census Tract 725, Fairfield County, Connecticut",FALSE,4,3103,1927,71237,28,0,13,0,18,33,4,5,8,22,39,32
-09001072600,"Census Tract 726, Fairfield County, Connecticut",FALSE,3,2649,2604,79187,26,1,7,0,9,51,3,2,10,18,32,40
-09001072700,"Census Tract 727, Fairfield County, Connecticut",FALSE,4,3288,1338,93349,36,2,1,0,13,29,4,14,9,31,26,34
-09001072800,"Census Tract 728, Fairfield County, Connecticut",TRUE,4,3033,1706,73058,47,2,0,0,25,4,9,13,26,29,31,14
-09001072900,"Census Tract 729, Fairfield County, Connecticut",TRUE,4,3351,1384,95034,51,0,3,0,13,11,4,18,18,38,27,17
-09001073000,"Census Tract 730, Fairfield County, Connecticut",FALSE,3,3420,619,102365,33,2,2,0,26,21,4,12,7,46,22,24
-09001073100,"Census Tract 731, Fairfield County, Connecticut",TRUE,4,2832,2092,76385,20,0,6,0,16,19,22,17,8,33,16,43
-09001073200,"Census Tract 732, Fairfield County, Connecticut",TRUE,5,2214,1819,45644,23,0,3,0,40,17,4,12,30,24,34,12
-09001073300,"Census Tract 733, Fairfield County, Connecticut",TRUE,4,2635,1406,67667,43,0,2,0,19,12,2,22,19,25,41,14
-09001073400,"Census Tract 734, Fairfield County, Connecticut",TRUE,5,3297,1120,71285,46,1,0,0,24,5,4,20,19,43,23,15
-09001073500,"Census Tract 735, Fairfield County, Connecticut",TRUE,4,3086,1212,75341,34,0,0,0,24,2,7,32,30,44,23,3
-09001073600,"Census Tract 736, Fairfield County, Connecticut",TRUE,5,2903,675,56238,19,0,3,0,39,5,10,24,34,34,28,5
-09001073700,"Census Tract 737, Fairfield County, Connecticut",TRUE,5,2867,1582,56099,52,0,1,0,20,11,4,13,32,30,30,8
-09001073800,"Census Tract 738, Fairfield County, Connecticut",TRUE,7,2403,784,32294,31,0,8,2,17,5,9,28,44,25,24,7
-09001073900,"Census Tract 739, Fairfield County, Connecticut",TRUE,5,2645,1307,52441,49,0,0,0,9,5,11,27,35,28,26,11
-09001074000,"Census Tract 740, Fairfield County, Connecticut",TRUE,5,2683,665,49675,27,0,2,0,20,4,10,36,26,37,24,13
-09001074300,"Census Tract 743, Fairfield County, Connecticut",TRUE,6,2922,1499,49750,43,1,2,0,9,3,5,37,30,28,31,11
-09001074400,"Census Tract 744, Fairfield County, Connecticut",TRUE,5,2934,1566,54708,47,0,4,0,7,2,14,26,27,34,30,9
-09001080100,"Census Tract 801, Fairfield County, Connecticut",FALSE,4,3309,1868,88444,29,0,9,1,17,28,8,8,16,25,32,27
-09001080200,"Census Tract 802, Fairfield County, Connecticut",FALSE,3,3026,1642,89970,27,0,0,0,13,30,8,21,12,33,27,27
-09001080400,"Census Tract 804, Fairfield County, Connecticut",FALSE,4,2860,2078,78250,55,0,0,0,15,13,1,17,11,32,42,15
-09001080500,"Census Tract 805, Fairfield County, Connecticut",FALSE,3,3225,1465,113048,1,0,4,0,3,90,1,1,3,31,12,55
-09001080600,"Census Tract 806, Fairfield County, Connecticut",FALSE,3,2745,1161,98147,15,0,2,0,11,70,1,1,2,23,33,42
-09001080700,"Census Tract 807, Fairfield County, Connecticut",FALSE,3,2857,830,107815,23,0,1,0,2,70,1,3,5,24,27,44
-09001080800,"Census Tract 808, Fairfield County, Connecticut",FALSE,3,3439,1653,115366,11,0,0,0,7,76,2,3,7,21,35,36
-09001080900,"Census Tract 809, Fairfield County, Connecticut",FALSE,3,3421,1817,121039,18,0,0,0,12,59,7,5,9,24,34,33
-09001081000,"Census Tract 810, Fairfield County, Connecticut",FALSE,4,3385,1558,89253,19,0,1,0,9,63,4,4,11,37,26,25
-09001081100,"Census Tract 811, Fairfield County, Connecticut",FALSE,3,3397,1810,129524,9,0,0,0,5,72,7,7,3,32,31,34
-09001081200,"Census Tract 812, Fairfield County, Connecticut",FALSE,3,3507,1877,137848,9,0,1,0,4,76,3,6,6,9,30,56
-09001081300,"Census Tract 813, Fairfield County, Connecticut",FALSE,3,3060,2228,111958,2,0,6,0,5,80,5,1,3,15,26,56
-09001090100,"Census Tract 901, Fairfield County, Connecticut",FALSE,2,3573,1137,160186,7,0,9,0,3,79,2,0,10,8,14,69
-09001090200,"Census Tract 902, Fairfield County, Connecticut",FALSE,2,3530,2744,142533,1,0,10,0,5,82,2,1,3,16,23,58
-09001090300,"Census Tract 903, Fairfield County, Connecticut",FALSE,3,3650,1544,138841,1,0,4,0,4,76,4,12,1,22,25,52
-09001090400,"Census Tract 904, Fairfield County, Connecticut",FALSE,2,3514,2148,147580,8,0,7,0,6,67,10,3,6,15,19,60
-09001090500,"Census Tract 905, Fairfield County, Connecticut",FALSE,3,3747,1454,148592,2,0,3,0,4,80,4,7,2,15,18,64
-09001090600,"Census Tract 906, Fairfield County, Connecticut",FALSE,2,3570,1255,153941,4,0,2,0,5,78,10,0,4,22,14,60
-09001090700,"Census Tract 907, Fairfield County, Connecticut",FALSE,2,4039,1632,176924,2,0,9,0,2,84,0,3,1,7,25,67
-09001105100,"Census Tract 1051, Fairfield County, Connecticut",FALSE,2,4585,1472,248474,0,0,2,0,2,90,4,2,2,4,12,83
-09001105200,"Census Tract 1052, Fairfield County, Connecticut",FALSE,2,5539,1255,288627,0,0,2,0,2,93,2,1,2,7,14,77
-09001110202,"Census Tract 1102.02, Fairfield County, Connecticut",FALSE,3,3287,2108,121911,7,1,2,2,2,78,6,1,10,11,34,45
-09001110302,"Census Tract 1103.02, Fairfield County, Connecticut",FALSE,3,3198,1315,123106,3,0,7,0,4,82,2,1,0,28,16,56
-09001257200,"Census Tract 2572, Fairfield County, Connecticut",TRUE,4,2504,1704,57033,51,0,0,0,16,20,7,6,27,19,34,20
-09009150300,"Census Tract 1503, New Haven County, Connecticut",FALSE,3,3023,1658,112138,5,0,8,0,13,68,5,0,2,27,28,43
-09009150500,"Census Tract 1505, New Haven County, Connecticut",FALSE,2,3472,1627,138992,5,0,5,0,3,85,2,0,6,16,25,54
-09009150600,"Census Tract 1506, New Haven County, Connecticut",FALSE,2,3409,2646,150684,3,0,11,0,4,78,3,1,10,20,24,46
+Geography ID,Name,Is Disadvantaged Community?,"Energy Burden (% income)","Avg. Annual Energy Cost ($)","Total Households","Household Income","Black/ African American (% pop.)","American Indian/ Native Alaskan (% pop.)","Asian (% pop.)","Native Hawaiian/ Other Pacific Islander (% pop.)","White Hispanic or Latino (% pop.)","White Non-Hispanic or Latino (% pop.)","Two or More Races (% pop.)","Other Races (% pop.)","Less Than High School (% pop.)","High School (% pop.)","Associates or Some College (% pop.)","Bachelors or Higher (% pop.)"
+09001010101,"Census Tract 101.01, Fairfield County, Connecticut",false,2,5510,1347,280103,4,0,4,0,2,89,1,0,1,11,9,78
+09001010102,"Census Tract 101.02, Fairfield County, Connecticut",false,1,5956,1362,397499,1,0,3,0,4,88,5,0,1,2,11,86
+09001010201,"Census Tract 102.01, Fairfield County, Connecticut",false,2,5721,1119,355892,1,0,5,0,7,84,3,0,1,0,10,88
+09001010202,"Census Tract 102.02, Fairfield County, Connecticut",false,2,4378,1951,243006,0,0,9,0,5,74,9,2,8,13,10,69
+09001010300,"Census Tract 103, Fairfield County, Connecticut",false,2,4849,1475,321556,2,0,4,0,4,87,2,1,2,3,7,89
+09001010400,"Census Tract 104, Fairfield County, Connecticut",false,2,4104,1978,234008,5,0,5,0,1,84,2,2,4,21,24,51
+09001010500,"Census Tract 105, Fairfield County, Connecticut",false,2,2768,2533,122405,5,0,7,0,22,58,5,4,10,22,25,44
+09001010600,"Census Tract 106, Fairfield County, Connecticut",false,2,2645,1023,174726,4,1,13,0,7,67,6,2,1,1,17,81
+09001010700,"Census Tract 107, Fairfield County, Connecticut",false,2,3107,1567,168009,11,0,7,0,11,66,1,5,7,16,18,59
+09001010800,"Census Tract 108, Fairfield County, Connecticut",false,2,4221,1217,235906,0,0,6,0,11,81,2,0,3,9,14,74
+09001010900,"Census Tract 109, Fairfield County, Connecticut",false,2,4224,1851,258749,2,1,20,0,8,61,8,0,3,6,12,79
+09001011000,"Census Tract 110, Fairfield County, Connecticut",false,2,4843,1850,318317,0,0,6,0,7,78,6,2,1,5,7,87
+09001011100,"Census Tract 111, Fairfield County, Connecticut",false,2,5327,1499,350532,0,0,8,0,13,76,3,0,0,3,4,92
+09001011200,"Census Tract 112, Fairfield County, Connecticut",false,2,5193,599,328584,0,0,4,0,6,68,14,8,4,5,8,83
+09001011300,"Census Tract 113, Fairfield County, Connecticut",true,2,3710,1012,180876,5,0,4,0,27,39,10,14,8,20,13,58
+09001020101,"Census Tract 201.01, Fairfield County, Connecticut",true,2,1565,1348,98355,19,0,21,0,7,45,2,6,5,11,10,74
+09001020102,"Census Tract 201.02, Fairfield County, Connecticut",true,2,1702,1951,102816,24,2,9,0,13,44,5,5,16,17,16,52
+09001020200,"Census Tract 202, Fairfield County, Connecticut",false,2,5521,1395,306231,5,0,7,0,4,80,3,0,0,3,20,77
+09001020301,"Census Tract 203.01, Fairfield County, Connecticut",false,2,5198,1072,287840,2,0,2,0,4,72,19,1,1,3,20,76
+09001020302,"Census Tract 203.02, Fairfield County, Connecticut",false,2,5553,1327,313686,5,0,7,0,7,77,2,1,2,6,7,85
+09001020400,"Census Tract 204, Fairfield County, Connecticut",false,2,5076,1201,293457,3,0,11,0,7,69,4,7,8,10,14,67
+09001020500,"Census Tract 205, Fairfield County, Connecticut",false,2,4843,1701,252356,4,1,4,1,5,82,4,0,8,6,13,74
+09001020600,"Census Tract 206, Fairfield County, Connecticut",false,2,4390,1839,207618,8,0,11,0,9,61,8,2,4,15,17,64
+09001020700,"Census Tract 207, Fairfield County, Connecticut",false,2,4272,1525,238541,2,2,4,0,6,81,2,3,9,19,11,61
+09001020800,"Census Tract 208, Fairfield County, Connecticut",false,2,4652,871,268483,2,0,9,0,5,77,7,0,2,14,19,65
+09001020900,"Census Tract 209, Fairfield County, Connecticut",false,3,3207,1980,125643,9,0,7,0,22,56,2,5,5,28,19,49
+09001021000,"Census Tract 210, Fairfield County, Connecticut",false,2,4336,1172,215194,14,0,6,0,7,66,6,1,9,15,20,56
+09001021100,"Census Tract 211, Fairfield County, Connecticut",false,3,3559,2340,133341,14,1,8,0,16,42,14,5,9,22,18,51
+09001021200,"Census Tract 212, Fairfield County, Connecticut",false,2,3927,1726,203429,3,1,9,0,11,71,2,3,2,8,19,70
+09001021300,"Census Tract 213, Fairfield County, Connecticut",false,2,3853,1854,172589,14,0,13,0,20,41,6,5,5,33,18,44
+09001021401,"Census Tract 214.01, Fairfield County, Connecticut",true,2,3099,1088,127560,19,0,13,0,32,11,3,23,13,38,6,43
+09001021402,"Census Tract 214.02, Fairfield County, Connecticut",true,2,2438,1535,120201,31,0,10,0,23,31,0,5,9,43,11,37
+09001021501,"Census Tract 215.01, Fairfield County, Connecticut",true,3,2441,1376,70606,31,0,6,0,16,9,14,24,30,27,17,26
+09001021502,"Census Tract 215.02, Fairfield County, Connecticut",true,4,2454,959,62813,33,0,0,0,19,11,6,31,43,23,19,14
+09001021601,"Census Tract 216.01, Fairfield County, Connecticut",false,2,2173,1418,144689,11,0,27,0,6,44,11,1,0,7,15,78
+09001021602,"Census Tract 216.02, Fairfield County, Connecticut",false,1,1669,2012,118603,19,0,24,0,3,35,9,11,3,9,17,71
+09001021701,"Census Tract 217.01, Fairfield County, Connecticut",false,2,1743,1788,91995,25,0,7,0,10,36,4,18,15,15,21,48
+09001021702,"Census Tract 217.02, Fairfield County, Connecticut",false,1,2047,1868,143673,14,0,23,0,14,47,2,0,3,6,14,78
+09001021801,"Census Tract 218.01, Fairfield County, Connecticut",false,2,2797,1828,132931,7,0,14,1,19,41,3,15,4,23,22,51
+09001021802,"Census Tract 218.02, Fairfield County, Connecticut",true,3,2767,1890,104650,12,3,8,0,17,34,3,24,10,22,28,39
+09001021900,"Census Tract 219, Fairfield County, Connecticut",true,2,3391,2376,140631,11,0,5,0,17,53,2,12,9,14,33,44
+09001022000,"Census Tract 220, Fairfield County, Connecticut",false,2,3171,1067,150838,19,0,1,0,22,42,15,1,14,16,25,45
+09001022101,"Census Tract 221.01, Fairfield County, Connecticut",true,6,3124,877,54846,8,1,9,0,10,18,5,50,37,37,20,7
+09001022102,"Census Tract 221.02, Fairfield County, Connecticut",true,2,2981,1570,143930,18,0,0,0,21,42,1,17,17,19,18,46
+09001022201,"Census Tract 222.01, Fairfield County, Connecticut",false,1,1838,1409,131675,13,0,7,0,8,53,6,13,11,7,16,67
+09001022202,"Census Tract 222.02, Fairfield County, Connecticut",false,1,2046,1768,146938,23,0,4,0,14,46,4,10,9,11,21,59
+09001022300,"Census Tract 223, Fairfield County, Connecticut",false,2,3094,2020,148100,34,0,3,0,21,17,12,14,4,20,33,43
+09001022400,"Census Tract 224, Fairfield County, Connecticut",false,2,4366,801,250138,0,0,3,0,7,85,3,1,0,7,15,78
+09001030100,"Census Tract 301, Fairfield County, Connecticut",false,1,5588,1107,411912,2,0,2,0,4,91,0,1,2,1,6,91
+09001030200,"Census Tract 302, Fairfield County, Connecticut",false,1,5379,1120,359746,0,0,6,0,3,83,8,1,1,5,7,87
+09001030300,"Census Tract 303, Fairfield County, Connecticut",false,2,5730,1408,364233,1,0,2,0,3,90,3,1,0,2,6,93
+09001030400,"Census Tract 304, Fairfield County, Connecticut",false,2,4836,1462,291963,1,0,16,0,1,79,3,0,1,6,10,83
+09001030500,"Census Tract 305, Fairfield County, Connecticut",false,2,5104,1848,318133,1,0,4,0,3,87,4,0,3,4,10,83
+09001035101,"Census Tract 351.01, Fairfield County, Connecticut",false,2,3589,1651,218375,1,0,4,0,6,85,4,0,2,7,13,78
+09001035102,"Census Tract 351.02, Fairfield County, Connecticut",false,2,4656,1365,260592,1,0,5,0,7,85,2,0,0,3,22,75
+09001035200,"Census Tract 352, Fairfield County, Connecticut",false,2,6050,1010,349982,0,0,2,0,2,89,6,0,0,0,13,87
+09001035300,"Census Tract 353, Fairfield County, Connecticut",false,2,5621,1197,313565,1,0,7,0,3,87,2,0,7,3,7,83
+09001035400,"Census Tract 354, Fairfield County, Connecticut",false,2,5553,1632,320607,0,0,3,0,2,92,3,0,0,3,9,88
+09001042500,"Census Tract 425, Fairfield County, Connecticut",false,2,4247,1413,221719,8,0,1,0,4,83,4,0,0,22,27,50
+09001042600,"Census Tract 426, Fairfield County, Connecticut",false,2,3880,1681,196335,13,0,7,0,12,60,7,0,5,25,18,52
+09001042700,"Census Tract 427, Fairfield County, Connecticut",false,2,3164,2172,164690,11,1,9,1,10,59,7,3,5,15,26,53
+09001042800,"Census Tract 428, Fairfield County, Connecticut",false,2,3952,1784,178782,11,0,5,0,9,69,4,2,5,14,24,56
+09001042900,"Census Tract 429, Fairfield County, Connecticut",false,2,4497,616,255141,4,1,0,0,8,84,3,0,2,7,15,76
+09001043000,"Census Tract 430, Fairfield County, Connecticut",false,2,4197,1239,192421,10,0,2,0,11,66,1,8,8,8,47,36
+09001043100,"Census Tract 431, Fairfield County, Connecticut",false,2,4409,1610,268029,9,0,10,0,7,66,5,1,6,11,17,66
+09001043200,"Census Tract 432, Fairfield County, Connecticut",true,3,3564,1239,129296,12,0,5,0,31,40,7,3,28,22,23,28
+09001043300,"Census Tract 433, Fairfield County, Connecticut",false,2,4051,1132,190349,20,0,12,0,17,38,8,4,11,20,21,48
+09001043400,"Census Tract 434, Fairfield County, Connecticut",false,2,2975,1779,134721,7,1,11,0,25,47,5,3,16,19,21,44
+09001043500,"Census Tract 435, Fairfield County, Connecticut",false,3,4164,893,162843,7,0,2,0,20,55,14,1,13,20,20,46
+09001043600,"Census Tract 436, Fairfield County, Connecticut",false,2,4191,1272,216675,11,0,9,0,4,67,2,8,4,20,24,52
+09001043700,"Census Tract 437, Fairfield County, Connecticut",false,2,2117,1600,102612,22,0,9,0,20,36,6,8,6,14,20,60
+09001043800,"Census Tract 438, Fairfield County, Connecticut",false,3,2686,2771,101982,12,0,8,1,23,27,5,24,11,19,28,41
+09001043900,"Census Tract 439, Fairfield County, Connecticut",false,2,3938,2122,160849,12,0,8,0,19,46,5,10,11,9,35,45
+09001044000,"Census Tract 440, Fairfield County, Connecticut",true,3,2936,2163,92618,16,0,1,0,37,29,11,5,24,20,25,31
+09001044100,"Census Tract 441, Fairfield County, Connecticut",true,1,2053,1517,138569,19,1,4,0,21,41,8,6,6,22,9,62
+09001044200,"Census Tract 442, Fairfield County, Connecticut",true,3,3369,1775,103735,8,0,4,1,20,56,2,8,17,28,21,34
+09001044300,"Census Tract 443, Fairfield County, Connecticut",false,2,3678,1778,164038,10,0,2,0,15,66,4,3,5,19,29,46
+09001044400,"Census Tract 444, Fairfield County, Connecticut",true,2,4061,1195,167224,27,2,1,0,23,36,10,1,17,28,18,37
+09001044500,"Census Tract 445, Fairfield County, Connecticut",true,3,3394,1315,105845,41,0,0,0,31,16,8,4,17,31,26,26
+09001044600,"Census Tract 446, Fairfield County, Connecticut",false,2,5730,1361,329839,0,0,2,0,4,92,3,0,1,10,11,79
+09001045101,"Census Tract 451.01, Fairfield County, Connecticut",false,2,5462,1239,293821,0,0,8,0,2,82,7,1,3,6,11,79
+09001045102,"Census Tract 451.02, Fairfield County, Connecticut",false,2,5246,1823,298717,0,0,7,0,3,82,7,1,1,8,14,76
+09001045200,"Census Tract 452, Fairfield County, Connecticut",false,2,4057,1075,246678,2,0,6,0,5,85,2,0,2,9,11,78
+09001045300,"Census Tract 453, Fairfield County, Connecticut",false,2,5459,751,348224,1,0,10,0,1,79,9,0,0,2,8,90
+09001045400,"Census Tract 454, Fairfield County, Connecticut",false,2,4762,1067,293420,2,0,14,0,3,78,3,0,1,5,11,83
+09001050100,"Census Tract 501, Fairfield County, Connecticut",false,1,4886,1572,333587,0,0,3,0,2,92,2,1,1,3,7,89
+09001050200,"Census Tract 502, Fairfield County, Connecticut",false,2,4956,1410,296587,1,0,9,0,4,81,5,0,3,3,4,89
+09001050301,"Census Tract 503.01, Fairfield County, Connecticut",false,2,4794,1465,260106,0,0,3,0,5,83,6,2,1,5,16,78
+09001050302,"Census Tract 503.02, Fairfield County, Connecticut",false,1,5020,1495,346339,0,0,6,0,3,88,3,0,0,7,5,87
+09001050400,"Census Tract 504, Fairfield County, Connecticut",false,2,4308,1057,251325,2,0,8,0,2,85,3,0,4,6,19,71
+09001050500,"Census Tract 505, Fairfield County, Connecticut",false,2,5198,1808,302892,4,1,6,0,1,80,8,0,2,11,12,75
+09001050600,"Census Tract 506, Fairfield County, Connecticut",false,1,4926,1224,342658,1,1,3,0,6,74,16,0,1,8,20,71
+09001055100,"Census Tract 551, Fairfield County, Connecticut",false,2,5294,1970,298352,3,0,6,0,3,81,8,0,0,2,15,83
+09001055200,"Census Tract 552, Fairfield County, Connecticut",false,2,5199,1561,308963,3,0,3,0,4,84,5,0,1,6,7,86
+09001060100,"Census Tract 601, Fairfield County, Connecticut",false,2,4193,963,228618,6,0,2,0,3,78,4,7,1,9,15,75
+09001060200,"Census Tract 602, Fairfield County, Connecticut",false,2,4139,1708,200662,1,0,3,0,7,85,3,2,2,12,32,54
+09001060300,"Census Tract 603, Fairfield County, Connecticut",false,2,4699,1481,273955,0,0,4,0,1,94,2,0,0,14,11,75
+09001060400,"Census Tract 604, Fairfield County, Connecticut",false,2,4928,1509,283668,1,0,2,0,1,94,2,1,0,3,8,89
+09001060500,"Census Tract 605, Fairfield County, Connecticut",false,2,4665,925,289929,2,0,8,0,2,88,1,0,2,6,9,83
+09001060600,"Census Tract 606, Fairfield County, Connecticut",false,1,3913,998,271595,3,0,1,0,4,88,4,0,3,7,9,80
+09001060700,"Census Tract 607, Fairfield County, Connecticut",false,2,4215,1843,249950,3,0,2,0,3,88,3,1,1,5,17,77
+09001060800,"Census Tract 608, Fairfield County, Connecticut",false,2,4210,830,228187,1,0,2,0,4,88,3,2,1,5,16,78
+09001060900,"Census Tract 609, Fairfield County, Connecticut",false,2,4363,903,218984,3,0,5,0,2,86,2,2,4,15,22,58
+09001061000,"Census Tract 610, Fairfield County, Connecticut",false,2,3610,1585,153057,3,0,7,0,5,77,7,2,9,24,18,48
+09001061100,"Census Tract 611, Fairfield County, Connecticut",false,2,4291,1271,246010,0,0,2,0,2,93,1,1,3,6,8,83
+09001061200,"Census Tract 612, Fairfield County, Connecticut",true,2,3918,890,163097,2,0,17,0,8,64,3,6,17,19,22,42
+09001061300,"Census Tract 613, Fairfield County, Connecticut",false,3,3564,1135,123821,1,0,9,0,10,75,4,2,2,25,16,57
+09001061400,"Census Tract 614, Fairfield County, Connecticut",false,2,3197,1315,134088,5,0,14,0,11,55,10,5,6,19,19,56
+09001061500,"Census Tract 615, Fairfield County, Connecticut",false,2,3757,1745,231411,1,0,1,0,2,84,10,2,1,4,10,85
+09001061600,"Census Tract 616, Fairfield County, Connecticut",false,2,3798,2075,200993,0,0,2,0,4,93,1,0,3,8,11,77
+09001070100,"Census Tract 701, Fairfield County, Connecticut",false,2,2554,2350,111681,4,0,3,0,6,72,8,7,5,17,16,62
+09001070200,"Census Tract 702, Fairfield County, Connecticut",true,3,2407,1635,69598,41,0,2,0,16,28,3,10,18,22,31,29
+09001070300,"Census Tract 703, Fairfield County, Connecticut",true,10,2131,406,20646,29,0,0,0,40,2,2,26,46,37,9,8
+09001070400,"Census Tract 704, Fairfield County, Connecticut",true,4,2229,422,54681,20,0,5,0,11,47,3,14,12,28,25,35
+09001070500,"Census Tract 705, Fairfield County, Connecticut",true,6,2736,658,44750,26,0,5,0,33,21,9,6,13,31,19,37
+09001070600,"Census Tract 706, Fairfield County, Connecticut",true,4,1512,1458,41571,39,0,4,0,25,15,5,12,24,15,26,35
+09001070900,"Census Tract 709, Fairfield County, Connecticut",true,7,2960,992,43838,35,0,3,0,22,4,9,27,50,20,23,7
+09001071000,"Census Tract 710, Fairfield County, Connecticut",true,5,3016,1066,60671,37,4,3,0,22,5,10,19,35,30,26,9
+09001071100,"Census Tract 711, Fairfield County, Connecticut",true,5,3042,1251,63354,37,1,6,0,26,7,6,18,36,32,22,10
+09001071200,"Census Tract 712, Fairfield County, Connecticut",true,5,2537,1865,50571,41,0,13,0,21,8,7,10,29,25,36,10
+09001071300,"Census Tract 713, Fairfield County, Connecticut",true,6,2548,1207,44768,46,0,0,0,22,9,9,14,44,29,17,10
+09001071400,"Census Tract 714, Fairfield County, Connecticut",true,6,2863,1102,51622,24,2,0,0,24,14,6,30,35,36,18,12
+09001071600,"Census Tract 716, Fairfield County, Connecticut",true,10,2498,941,24395,39,0,0,0,33,7,8,12,57,25,14,3
+09001071900,"Census Tract 719, Fairfield County, Connecticut",true,5,2835,1601,54028,37,0,1,0,18,20,9,16,17,31,36,16
+09001072000,"Census Tract 720, Fairfield County, Connecticut",true,4,2924,1170,67293,26,0,11,0,26,17,6,15,23,40,18,19
+09001072100,"Census Tract 721, Fairfield County, Connecticut",true,4,2734,2179,73554,24,1,8,1,16,38,2,11,12,30,32,26
+09001072200,"Census Tract 722, Fairfield County, Connecticut",true,4,2647,1655,60176,21,0,5,0,11,46,6,11,16,24,22,37
+09001072300,"Census Tract 723, Fairfield County, Connecticut",true,4,3165,1740,82312,28,0,3,0,15,35,5,15,15,24,43,18
+09001072400,"Census Tract 724, Fairfield County, Connecticut",true,4,3293,931,92097,28,1,4,0,21,13,5,28,15,33,30,22
+09001072500,"Census Tract 725, Fairfield County, Connecticut",false,4,3103,1927,71237,28,0,13,0,18,33,4,5,8,22,39,32
+09001072600,"Census Tract 726, Fairfield County, Connecticut",false,3,2649,2604,79187,26,1,7,0,9,51,3,2,10,18,32,40
+09001072700,"Census Tract 727, Fairfield County, Connecticut",false,4,3288,1338,93349,36,2,1,0,13,29,4,14,9,31,26,34
+09001072800,"Census Tract 728, Fairfield County, Connecticut",true,4,3033,1706,73058,47,2,0,0,25,4,9,13,26,29,31,14
+09001072900,"Census Tract 729, Fairfield County, Connecticut",true,4,3351,1384,95034,51,0,3,0,13,11,4,18,18,38,27,17
+09001073000,"Census Tract 730, Fairfield County, Connecticut",false,3,3420,619,102365,33,2,2,0,26,21,4,12,7,46,22,24
+09001073100,"Census Tract 731, Fairfield County, Connecticut",true,4,2832,2092,76385,20,0,6,0,16,19,22,17,8,33,16,43
+09001073200,"Census Tract 732, Fairfield County, Connecticut",true,5,2214,1819,45644,23,0,3,0,40,17,4,12,30,24,34,12
+09001073300,"Census Tract 733, Fairfield County, Connecticut",true,4,2635,1406,67667,43,0,2,0,19,12,2,22,19,25,41,14
+09001073400,"Census Tract 734, Fairfield County, Connecticut",true,5,3297,1120,71285,46,1,0,0,24,5,4,20,19,43,23,15
+09001073500,"Census Tract 735, Fairfield County, Connecticut",true,4,3086,1212,75341,34,0,0,0,24,2,7,32,30,44,23,3
+09001073600,"Census Tract 736, Fairfield County, Connecticut",true,5,2903,675,56238,19,0,3,0,39,5,10,24,34,34,28,5
+09001073700,"Census Tract 737, Fairfield County, Connecticut",true,5,2867,1582,56099,52,0,1,0,20,11,4,13,32,30,30,8
+09001073800,"Census Tract 738, Fairfield County, Connecticut",true,7,2403,784,32294,31,0,8,2,17,5,9,28,44,25,24,7
+09001073900,"Census Tract 739, Fairfield County, Connecticut",true,5,2645,1307,52441,49,0,0,0,9,5,11,27,35,28,26,11
+09001074000,"Census Tract 740, Fairfield County, Connecticut",true,5,2683,665,49675,27,0,2,0,20,4,10,36,26,37,24,13
+09001074300,"Census Tract 743, Fairfield County, Connecticut",true,6,2922,1499,49750,43,1,2,0,9,3,5,37,30,28,31,11
+09001074400,"Census Tract 744, Fairfield County, Connecticut",true,5,2934,1566,54708,47,0,4,0,7,2,14,26,27,34,30,9
+09001080100,"Census Tract 801, Fairfield County, Connecticut",false,4,3309,1868,88444,29,0,9,1,17,28,8,8,16,25,32,27
+09001080200,"Census Tract 802, Fairfield County, Connecticut",false,3,3026,1642,89970,27,0,0,0,13,30,8,21,12,33,27,27
+09001080400,"Census Tract 804, Fairfield County, Connecticut",false,4,2860,2078,78250,55,0,0,0,15,13,1,17,11,32,42,15
+09001080500,"Census Tract 805, Fairfield County, Connecticut",false,3,3225,1465,113048,1,0,4,0,3,90,1,1,3,31,12,55
+09001080600,"Census Tract 806, Fairfield County, Connecticut",false,3,2745,1161,98147,15,0,2,0,11,70,1,1,2,23,33,42
+09001080700,"Census Tract 807, Fairfield County, Connecticut",false,3,2857,830,107815,23,0,1,0,2,70,1,3,5,24,27,44
+09001080800,"Census Tract 808, Fairfield County, Connecticut",false,3,3439,1653,115366,11,0,0,0,7,76,2,3,7,21,35,36
+09001080900,"Census Tract 809, Fairfield County, Connecticut",false,3,3421,1817,121039,18,0,0,0,12,59,7,5,9,24,34,33
+09001081000,"Census Tract 810, Fairfield County, Connecticut",false,4,3385,1558,89253,19,0,1,0,9,63,4,4,11,37,26,25
+09001081100,"Census Tract 811, Fairfield County, Connecticut",false,3,3397,1810,129524,9,0,0,0,5,72,7,7,3,32,31,34
+09001081200,"Census Tract 812, Fairfield County, Connecticut",false,3,3507,1877,137848,9,0,1,0,4,76,3,6,6,9,30,56
+09001081300,"Census Tract 813, Fairfield County, Connecticut",false,3,3060,2228,111958,2,0,6,0,5,80,5,1,3,15,26,56
+09001090100,"Census Tract 901, Fairfield County, Connecticut",false,2,3573,1137,160186,7,0,9,0,3,79,2,0,10,8,14,69
+09001090200,"Census Tract 902, Fairfield County, Connecticut",false,2,3530,2744,142533,1,0,10,0,5,82,2,1,3,16,23,58
+09001090300,"Census Tract 903, Fairfield County, Connecticut",false,3,3650,1544,138841,1,0,4,0,4,76,4,12,1,22,25,52
+09001090400,"Census Tract 904, Fairfield County, Connecticut",false,2,3514,2148,147580,8,0,7,0,6,67,10,3,6,15,19,60
+09001090500,"Census Tract 905, Fairfield County, Connecticut",false,3,3747,1454,148592,2,0,3,0,4,80,4,7,2,15,18,64
+09001090600,"Census Tract 906, Fairfield County, Connecticut",false,2,3570,1255,153941,4,0,2,0,5,78,10,0,4,22,14,60
+09001090700,"Census Tract 907, Fairfield County, Connecticut",false,2,4039,1632,176924,2,0,9,0,2,84,0,3,1,7,25,67
+09001100100,"Census Tract 1001, Fairfield County, Connecticut",false,2,3705,2043,150226,1,0,14,0,5,74,4,2,3,21,25,50
+09001100200,"Census Tract 1002, Fairfield County, Connecticut",false,3,3930,2394,140831,4,0,3,0,3,84,6,0,3,27,19,51
+09001100300,"Census Tract 1003, Fairfield County, Connecticut",false,2,3912,2216,170346,1,0,2,0,4,84,5,3,4,21,19,56
+09001105100,"Census Tract 1051, Fairfield County, Connecticut",false,2,4585,1472,248474,0,0,2,0,2,90,4,2,2,4,12,83
+09001105200,"Census Tract 1052, Fairfield County, Connecticut",false,2,5539,1255,288627,0,0,2,0,2,93,2,1,2,7,14,77
+09001110100,"Census Tract 1101, Fairfield County, Connecticut",true,3,2506,1378,87064,9,0,7,0,11,66,5,2,9,17,26,49
+09001110201,"Census Tract 1102.01, Fairfield County, Connecticut",false,3,3576,1846,112901,0,0,11,0,7,72,6,3,5,37,20,38
+09001110202,"Census Tract 1102.02, Fairfield County, Connecticut",false,3,3287,2108,121911,7,1,2,2,2,78,6,1,10,11,34,45
+09001110301,"Census Tract 1103.01, Fairfield County, Connecticut",false,3,3122,3061,118078,1,0,3,0,6,85,3,1,3,20,29,48
+09001110302,"Census Tract 1103.02, Fairfield County, Connecticut",false,3,3198,1315,123106,3,0,7,0,4,82,2,1,0,28,16,56
+09001110400,"Census Tract 1104, Fairfield County, Connecticut",false,3,3913,1781,152674,1,0,2,0,2,88,6,1,2,19,25,54
+09001110500,"Census Tract 1105, Fairfield County, Connecticut",false,3,4055,2043,147238,2,0,1,0,5,89,2,0,2,22,27,49
+09001110601,"Census Tract 1106.01, Fairfield County, Connecticut",false,3,3736,1024,148520,2,0,3,0,1,94,0,0,1,11,17,71
+09001110602,"Census Tract 1106.02, Fairfield County, Connecticut",false,3,3600,1960,137527,0,0,8,0,6,82,2,1,5,24,28,43
+09001200100,"Census Tract 2001, Fairfield County, Connecticut",false,3,3365,1467,106439,2,0,6,0,3,80,5,6,8,19,29,44
+09001200200,"Census Tract 2002, Fairfield County, Connecticut",false,4,3291,2290,85691,20,0,7,0,2,58,6,6,6,23,26,45
+09001200301,"Census Tract 2003.01, Fairfield County, Connecticut",false,2,4039,1653,192433,0,0,14,0,6,74,4,2,2,14,31,53
+09001200302,"Census Tract 2003.02, Fairfield County, Connecticut",false,2,4152,1823,177322,2,0,2,0,2,90,3,1,3,26,22,49
+09001205100,"Census Tract 2051, Fairfield County, Connecticut",false,3,4298,1572,170264,2,0,2,1,3,89,3,2,2,15,24,59
+09001205200,"Census Tract 2052, Fairfield County, Connecticut",false,2,4254,2257,185170,0,0,3,0,3,93,1,0,2,10,21,66
+09001205300,"Census Tract 2053, Fairfield County, Connecticut",false,2,3427,2380,140115,4,0,7,0,4,78,5,2,6,22,20,52
+09001210101,"Census Tract 2101.01, Fairfield County, Connecticut",true,3,2383,1113,86990,16,0,9,0,6,39,8,23,16,5,19,60
+09001210102,"Census Tract 2101.02, Fairfield County, Connecticut",true,5,1843,1611,35776,10,1,6,0,10,36,8,29,28,40,20,13
+09001210201,"Census Tract 2102.01, Fairfield County, Connecticut",true,4,2917,1114,76322,6,1,1,0,17,36,23,16,14,43,26,17
+09001210202,"Census Tract 2102.02, Fairfield County, Connecticut",true,5,3491,814,70763,11,0,3,0,11,20,18,36,22,36,25,18
+09001210300,"Census Tract 2103, Fairfield County, Connecticut",true,4,3260,1784,83054,10,0,14,0,16,37,7,16,13,28,29,31
+09001210401,"Census Tract 2104.01, Fairfield County, Connecticut",false,3,3054,1782,100444,7,0,8,0,3,45,3,35,8,22,40,30
+09001210402,"Census Tract 2104.02, Fairfield County, Connecticut",false,3,3296,1492,101257,11,0,12,0,11,44,6,16,12,18,24,46
+09001210501,"Census Tract 2105.01, Fairfield County, Connecticut",false,3,3480,1156,100913,1,0,5,0,7,61,8,19,7,27,25,42
+09001210502,"Census Tract 2105.02, Fairfield County, Connecticut",false,2,2965,2890,138938,8,0,6,0,5,73,8,1,2,19,25,55
+09001210600,"Census Tract 2106, Fairfield County, Connecticut",true,4,2956,2320,76268,15,1,4,0,11,45,6,18,26,29,17,29
+09001210701,"Census Tract 2107.01, Fairfield County, Connecticut",true,4,3296,1770,76985,11,0,2,0,18,26,8,34,29,31,27,13
+09001210702,"Census Tract 2107.02, Fairfield County, Connecticut",true,4,3641,1389,95729,4,0,10,0,9,51,3,23,17,22,39,23
+09001210800,"Census Tract 2108, Fairfield County, Connecticut",false,3,3766,2038,148897,11,0,6,0,10,59,5,9,10,21,22,47
+09001210900,"Census Tract 2109, Fairfield County, Connecticut",false,2,3995,2120,166545,3,0,2,0,2,84,0,8,4,18,19,60
+09001211000,"Census Tract 2110, Fairfield County, Connecticut",false,3,4090,1539,117775,13,0,6,0,6,55,9,10,11,21,33,35
+09001211100,"Census Tract 2111, Fairfield County, Connecticut",false,2,3143,96,160476,32,0,2,0,11,49,2,5,0,58,13,29
+09001211201,"Census Tract 2112.01, Fairfield County, Connecticut",false,3,3269,1324,108757,4,0,13,0,11,48,1,22,22,24,20,35
+09001211202,"Census Tract 2112.02, Fairfield County, Connecticut",false,3,3456,1081,102218,2,0,8,0,7,76,4,4,6,29,13,52
+09001211300,"Census Tract 2113, Fairfield County, Connecticut",false,2,3851,1436,158568,12,0,2,0,3,75,0,9,5,17,24,53
+09001211400,"Census Tract 2114, Fairfield County, Connecticut",false,2,3144,2205,131866,15,0,3,0,6,68,2,6,4,22,29,46
+09001220100,"Census Tract 2201, Fairfield County, Connecticut",false,3,4270,1754,167441,1,0,2,0,3,86,7,1,4,22,32,42
+09001220200,"Census Tract 2202, Fairfield County, Connecticut",false,2,4166,1636,168896,0,0,1,0,5,88,2,4,0,24,24,52
+09001220300,"Census Tract 2203, Fairfield County, Connecticut",false,3,4096,1303,145803,1,0,0,0,8,83,5,4,6,27,21,46
+09001230100,"Census Tract 2301, Fairfield County, Connecticut",false,3,3976,2733,142925,0,0,2,0,1,90,6,1,2,25,27,46
+09001230200,"Census Tract 2302, Fairfield County, Connecticut",false,2,3868,718,156360,1,0,3,0,2,93,1,0,2,9,22,68
+09001230300,"Census Tract 2303, Fairfield County, Connecticut",false,3,3910,1292,147943,1,0,4,0,4,85,5,1,1,13,29,57
+09001230400,"Census Tract 2304, Fairfield County, Connecticut",false,3,4232,1994,164643,1,0,1,0,3,87,3,5,3,17,19,61
+09001230501,"Census Tract 2305.01, Fairfield County, Connecticut",false,3,4446,1559,166181,0,0,4,0,1,91,3,1,2,14,21,63
+09001230502,"Census Tract 2305.02, Fairfield County, Connecticut",false,2,3894,1638,165263,6,0,1,1,5,83,2,2,4,19,26,51
+09001240100,"Census Tract 2401, Fairfield County, Connecticut",false,2,4068,1747,180381,0,0,3,0,1,92,2,2,2,12,21,66
+09001240200,"Census Tract 2402, Fairfield County, Connecticut",false,2,4201,1678,199594,0,0,2,0,4,87,3,3,2,9,16,74
+09001245100,"Census Tract 2451, Fairfield County, Connecticut",false,2,4098,989,220386,2,0,2,0,1,90,6,1,4,6,14,76
+09001245200,"Census Tract 2452, Fairfield County, Connecticut",false,2,4049,1614,181602,3,0,7,0,5,77,7,0,1,9,17,74
+09001245300,"Census Tract 2453, Fairfield County, Connecticut",false,2,3454,2323,170835,1,0,3,0,8,86,1,0,3,8,23,66
+09001245400,"Census Tract 2454, Fairfield County, Connecticut",false,2,4213,1122,234885,0,0,1,0,1,96,1,0,0,8,20,72
+09001245500,"Census Tract 2455, Fairfield County, Connecticut",false,2,4160,1054,209282,0,0,1,0,13,82,2,2,2,6,16,77
+09001245600,"Census Tract 2456, Fairfield County, Connecticut",false,2,4529,2124,215087,2,0,6,0,0,89,3,0,1,4,15,79
+09001257100,"Census Tract 2571, Fairfield County, Connecticut",false,2,4085,1586,171538,0,0,2,0,3,93,1,1,2,16,15,66
+09001257200,"Census Tract 2572, Fairfield County, Connecticut",true,4,2504,1704,57033,51,0,0,0,16,20,7,6,27,19,34,20
+09003400101,"Census Tract 4001.01, Hartford County, Connecticut",false,3,2989,1415,95494,0,0,2,0,3,91,2,1,4,29,35,32
+09003400102,"Census Tract 4001.02, Hartford County, Connecticut",false,3,3142,1707,102578,2,0,11,0,1,81,5,1,9,27,26,38
+09003400200,"Census Tract 4002, Hartford County, Connecticut",false,2,3563,2178,148724,0,0,4,0,2,90,1,2,7,22,20,51
+09003400300,"Census Tract 4003, Hartford County, Connecticut",false,3,3483,2942,127000,1,0,2,0,3,92,3,0,5,20,22,53
+09003405100,"Census Tract 4051, Hartford County, Connecticut",false,3,3122,1209,115589,9,0,1,0,6,70,9,4,2,22,47,28
+09003405200,"Census Tract 4052, Hartford County, Connecticut",false,3,2823,1879,82698,1,0,3,0,9,79,7,1,9,33,33,24
+09003405300,"Census Tract 4053, Hartford County, Connecticut",false,3,2848,2482,99743,2,0,1,0,4,85,4,3,8,30,31,31
+09003405401,"Census Tract 4054.01, Hartford County, Connecticut",false,3,3356,1295,120082,1,0,2,0,2,87,5,4,3,28,34,35
+09003405402,"Census Tract 4054.02, Hartford County, Connecticut",false,4,2736,2039,65827,6,1,3,0,2,73,7,8,7,27,39,27
+09003405500,"Census Tract 4055, Hartford County, Connecticut",false,4,2911,2069,82200,1,0,3,0,16,73,2,5,6,33,25,36
+09003405600,"Census Tract 4056, Hartford County, Connecticut",false,3,3207,2599,95110,8,0,0,0,12,60,14,6,10,28,41,22
+09003405700,"Census Tract 4057, Hartford County, Connecticut",true,5,2832,1019,53109,8,2,0,0,8,73,3,6,20,37,22,20
+09003405801,"Census Tract 4058.01, Hartford County, Connecticut",false,3,2890,1407,89779,2,1,3,0,9,73,11,2,1,32,30,36
+09003405802,"Census Tract 4058.02, Hartford County, Connecticut",false,3,3466,1587,121111,8,0,4,0,5,75,8,0,3,22,30,46
+09003405900,"Census Tract 4059, Hartford County, Connecticut",false,3,3407,1717,121647,12,0,0,0,9,76,3,0,9,28,26,38
+09003406001,"Census Tract 4060.01, Hartford County, Connecticut",false,4,2618,1633,74649,5,3,4,0,11,66,5,7,12,38,31,18
+09003406002,"Census Tract 4060.02, Hartford County, Connecticut",false,3,2867,1824,107980,4,0,0,0,2,91,2,1,5,32,29,34
+09003406100,"Census Tract 4061, Hartford County, Connecticut",true,5,2488,1649,50082,16,0,0,0,18,46,12,9,14,36,32,18
+09003410101,"Census Tract 4101.01, Hartford County, Connecticut",false,2,3620,1945,145005,0,0,3,0,2,92,3,0,3,20,26,52
+09003410102,"Census Tract 4101.02, Hartford County, Connecticut",false,2,3750,1497,160655,0,0,3,0,2,93,2,0,5,13,21,60
+09003415300,"Census Tract 4153, Hartford County, Connecticut",true,6,2536,874,45870,18,0,0,0,36,23,3,21,22,38,32,8
+09003415400,"Census Tract 4154, Hartford County, Connecticut",false,5,2882,2321,62771,18,0,0,0,29,31,17,5,14,44,30,11
+09003415500,"Census Tract 4155, Hartford County, Connecticut",true,5,2770,1143,58218,17,0,1,0,30,31,12,9,13,48,36,2
+09003415600,"Census Tract 4156, Hartford County, Connecticut",true,5,2486,1702,54427,25,0,3,0,20,24,12,17,24,32,26,18
+09003415700,"Census Tract 4157, Hartford County, Connecticut",false,4,2936,1374,77040,9,0,2,0,19,46,7,16,14,33,33,21
+09003415800,"Census Tract 4158, Hartford County, Connecticut",true,5,2675,1010,54811,21,0,0,0,24,32,10,13,16,31,28,25
+09003415900,"Census Tract 4159, Hartford County, Connecticut",true,5,2098,613,38205,16,0,0,0,41,27,9,7,29,43,22,6
+09003416000,"Census Tract 4160, Hartford County, Connecticut",true,5,2445,1830,45649,2,0,0,0,31,48,9,9,21,51,18,9
+09003416100,"Census Tract 4161, Hartford County, Connecticut",true,6,2565,1797,41863,13,0,7,0,32,24,1,22,39,36,18,8
+09003416200,"Census Tract 4162, Hartford County, Connecticut",true,6,2297,1298,40159,18,0,0,0,39,14,8,21,39,21,33,7
+09003416300,"Census Tract 4163, Hartford County, Connecticut",true,5,2285,1586,49685,7,0,0,0,34,32,12,15,28,24,42,7
+09003416400,"Census Tract 4164, Hartford County, Connecticut",false,3,3126,1266,115679,17,0,2,0,10,63,4,4,10,24,28,38
+09003416500,"Census Tract 4165, Hartford County, Connecticut",false,4,3015,1720,78733,20,0,0,0,20,40,11,9,16,39,24,22
+09003416600,"Census Tract 4166, Hartford County, Connecticut",true,5,2670,1112,54888,8,0,3,0,33,25,23,8,28,31,32,9
+09003416700,"Census Tract 4167, Hartford County, Connecticut",true,4,2897,2414,82416,9,1,1,0,28,38,8,15,17,30,31,22
+09003416800,"Census Tract 4168, Hartford County, Connecticut",false,4,3017,1177,80212,18,0,8,0,16,48,6,4,12,21,34,34
+09003417100,"Census Tract 4171, Hartford County, Connecticut",true,6,2033,786,34018,14,1,0,1,39,26,2,17,26,41,28,4
+09003417200,"Census Tract 4172, Hartford County, Connecticut",true,4,2508,623,64330,9,0,9,0,13,59,8,1,12,26,31,31
+09003417300,"Census Tract 4173, Hartford County, Connecticut",false,907,2230,6,246,0,0,3,0,2,94,0,0,0,0,100,0
+09003417400,"Census Tract 4174, Hartford County, Connecticut",false,2,2252,1283,90272,9,0,17,0,6,63,2,2,2,16,30,53
+09003417500,"Census Tract 4175, Hartford County, Connecticut",false,4,2886,1748,79511,4,1,6,0,15,65,7,3,8,38,25,29
+09003420400,"Census Tract 4204, Hartford County, Connecticut",false,3,3228,1376,100236,1,0,6,0,1,87,0,5,5,24,26,46
+09003420500,"Census Tract 4205, Hartford County, Connecticut",false,3,2609,2377,91890,2,2,3,0,2,76,1,13,5,31,36,28
+09003420601,"Census Tract 4206.01, Hartford County, Connecticut",false,4,2731,1437,67565,1,0,4,0,4,91,1,0,8,41,24,27
+09003420602,"Census Tract 4206.02, Hartford County, Connecticut",false,3,2680,1615,93140,2,1,7,0,7,80,1,1,2,26,34,37
+09003420700,"Census Tract 4207, Hartford County, Connecticut",false,3,3129,1382,94122,1,0,0,0,7,87,4,0,8,28,41,22
+09003430100,"Census Tract 4301, Hartford County, Connecticut",false,3,2834,1781,88751,1,0,3,0,7,82,3,4,3,35,35,27
+09003430201,"Census Tract 4302.01, Hartford County, Connecticut",false,3,3445,1409,125337,2,0,3,0,3,87,2,3,3,30,22,44
+09003430202,"Census Tract 4302.02, Hartford County, Connecticut",false,2,3726,1692,156223,0,0,2,0,3,85,7,3,2,20,30,49
+09003430203,"Census Tract 4302.03, Hartford County, Connecticut",false,3,3070,1800,104257,0,0,2,0,1,94,1,2,4,27,23,45
+09003430301,"Census Tract 4303.01, Hartford County, Connecticut",false,2,3432,1308,149439,0,0,5,0,1,93,1,0,7,12,21,60
+09003430302,"Census Tract 4303.02, Hartford County, Connecticut",false,3,3125,1120,107031,2,0,0,0,4,94,1,0,9,33,32,27
+09003430400,"Census Tract 4304, Hartford County, Connecticut",false,3,3264,2089,112318,5,0,0,0,2,90,3,0,12,25,27,37
+09003430501,"Census Tract 4305.01, Hartford County, Connecticut",false,4,2988,495,81645,10,0,0,0,6,82,2,0,0,41,28,30
+09003430502,"Census Tract 4305.02, Hartford County, Connecticut",false,2,3711,1969,171447,0,0,0,0,4,96,0,0,3,18,17,62
+09003430602,"Census Tract 4306.02, Hartford County, Connecticut",false,2,3082,1332,123417,2,0,6,0,0,91,0,1,5,25,26,44
+09003430603,"Census Tract 4306.03, Hartford County, Connecticut",false,3,2974,914,116246,0,0,12,0,5,74,8,2,23,26,24,27
+09003430604,"Census Tract 4306.04, Hartford County, Connecticut",false,3,3719,1150,129524,2,0,5,0,1,87,4,1,4,17,28,50
+09003460100,"Census Tract 4601, Hartford County, Connecticut",false,2,3351,1261,173307,9,0,12,0,5,69,2,2,3,14,24,59
+09003460202,"Census Tract 4602.02, Hartford County, Connecticut",false,2,3318,1901,157406,3,0,18,0,3,70,2,4,3,10,17,70
+09003460203,"Census Tract 4602.03, Hartford County, Connecticut",false,2,3193,1553,143000,5,1,12,0,4,72,3,3,2,5,21,73
+09003460204,"Census Tract 4602.04, Hartford County, Connecticut",false,2,3170,2475,127787,5,0,19,0,8,67,2,0,3,13,26,58
+09003460301,"Census Tract 4603.01, Hartford County, Connecticut",false,2,3471,1787,158594,1,0,8,0,5,84,3,0,1,15,26,58
+09003460302,"Census Tract 4603.02, Hartford County, Connecticut",false,2,3290,1502,151297,0,0,8,0,9,79,3,1,10,17,21,52
+09003462101,"Census Tract 4621.01, Hartford County, Connecticut",false,2,3424,2466,157386,0,0,8,0,2,84,1,4,0,8,25,67
+09003462102,"Census Tract 4621.02, Hartford County, Connecticut",false,2,4067,1301,267034,2,0,17,0,3,74,5,0,0,3,10,86
+09003462201,"Census Tract 4622.01, Hartford County, Connecticut",false,2,3249,2325,136325,1,2,9,0,1,86,1,1,8,9,32,51
+09003462202,"Census Tract 4622.02, Hartford County, Connecticut",false,2,3380,1088,214278,3,0,32,0,2,60,3,0,0,4,14,82
+09003490303,"Census Tract 4903.03, Hartford County, Connecticut",false,2,2480,1868,110413,5,0,46,0,0,42,3,4,3,11,18,69
+09003490304,"Census Tract 4903.04, Hartford County, Connecticut",false,2,3174,1862,159053,1,0,11,0,5,82,1,0,3,16,27,54
+09003494100,"Census Tract 4941, Hartford County, Connecticut",false,3,2768,2747,96410,5,0,10,0,5,67,7,6,3,22,32,43
+09003494201,"Census Tract 4942.01, Hartford County, Connecticut",false,3,2997,1803,98348,3,0,6,0,3,83,5,1,7,31,25,37
+09003494202,"Census Tract 4942.02, Hartford County, Connecticut",false,2,2887,1248,127103,3,0,10,0,3,81,3,0,2,12,14,72
+09003494300,"Census Tract 4943, Hartford County, Connecticut",false,3,3205,1519,114235,6,0,2,0,7,80,3,1,12,21,35,33
+09003494400,"Census Tract 4944, Hartford County, Connecticut",false,3,2842,1902,102868,1,0,6,0,5,79,6,4,3,22,29,46
+09003494500,"Census Tract 4945, Hartford County, Connecticut",false,3,3012,1727,108957,3,0,5,0,12,70,5,6,8,20,25,47
+09003494600,"Census Tract 4946, Hartford County, Connecticut",false,3,2881,1635,99321,6,0,8,0,7,69,9,1,6,27,23,45
+09003496100,"Census Tract 4961, Hartford County, Connecticut",false,4,2491,1230,65441,17,0,14,0,40,24,3,2,11,28,47,13
+09003496200,"Census Tract 4962, Hartford County, Connecticut",false,3,3157,1897,109514,7,0,15,0,8,62,5,3,8,15,26,51
+09003496300,"Census Tract 4963, Hartford County, Connecticut",false,2,3210,1495,130090,3,0,5,0,11,75,2,4,6,15,19,61
+09003496400,"Census Tract 4964, Hartford County, Connecticut",false,2,3593,1024,196802,3,0,4,0,4,86,2,1,4,10,16,70
+09003496500,"Census Tract 4965, Hartford County, Connecticut",false,2,3175,1173,180262,1,0,10,0,2,81,3,3,0,4,11,86
+09003496600,"Census Tract 4966, Hartford County, Connecticut",false,2,3508,1165,179666,0,0,6,0,3,86,0,4,1,6,21,72
+09003496700,"Census Tract 4967, Hartford County, Connecticut",false,3,2681,1567,98393,17,0,7,0,7,58,5,7,6,13,27,54
+09003496800,"Census Tract 4968, Hartford County, Connecticut",false,3,2809,1473,95054,12,0,8,0,17,39,15,9,22,26,22,30
+09003496900,"Census Tract 4969, Hartford County, Connecticut",false,2,2704,2787,125019,9,0,5,0,8,69,6,4,11,13,13,63
+09003497100,"Census Tract 4971, Hartford County, Connecticut",false,2,2335,1806,109373,8,0,2,0,4,81,4,1,4,8,11,76
+09003497600,"Census Tract 4976, Hartford County, Connecticut",false,2,3415,923,162237,1,0,12,0,3,81,3,0,1,7,10,82
+09003497700,"Census Tract 4977, Hartford County, Connecticut",false,2,3624,1594,208542,3,0,14,0,4,77,1,1,1,4,14,80
+09003504300,"Census Tract 5043, Hartford County, Connecticut",true,6,2615,833,43333,11,0,2,0,20,24,21,23,27,16,41,16
+09003504900,"Census Tract 5049, Hartford County, Connecticut",true,5,2829,1866,55065,27,0,0,0,18,12,10,34,20,49,23,8
+09003524501,"Census Tract 5245.01, Hartford County, Connecticut",true,4,2439,1444,54615,23,0,1,0,9,29,17,21,35,11,20,33
+09003524700,"Census Tract 5247, Hartford County, Connecticut",true,4,3528,1193,80431,24,0,0,0,26,19,8,22,14,32,34,20
+09005250100,"Census Tract 2501, Litchfield County, Connecticut",false,2,3758,725,152453,4,0,0,0,3,90,2,0,3,15,20,63
+09005253100,"Census Tract 2531, Litchfield County, Connecticut",true,4,3119,1362,84274,3,0,4,0,7,80,4,2,5,34,22,38
+09005253200,"Census Tract 2532, Litchfield County, Connecticut",false,3,3708,2394,139486,1,0,5,0,2,88,2,2,4,17,24,55
+09005253400,"Census Tract 2534, Litchfield County, Connecticut",false,3,3725,2265,141987,2,0,0,0,4,89,2,2,5,23,27,45
+09005253500,"Census Tract 2535, Litchfield County, Connecticut",false,3,3804,2141,128992,1,0,2,0,4,85,7,1,4,19,33,44
+09005265100,"Census Tract 2651, Litchfield County, Connecticut",false,3,3990,552,149553,1,0,8,0,1,83,6,0,3,17,22,59
+09005266100,"Census Tract 2661, Litchfield County, Connecticut",false,3,3365,1277,106101,1,0,2,0,3,88,6,1,5,28,19,49
+09005267100,"Census Tract 2671, Litchfield County, Connecticut",false,3,3806,1405,145868,1,0,2,0,4,85,5,3,3,20,21,56
+09005268100,"Census Tract 2681, Litchfield County, Connecticut",false,2,3770,963,157209,0,0,3,0,3,94,1,0,1,13,24,62
+09005298300,"Census Tract 2983, Litchfield County, Connecticut",false,3,3532,1039,121952,2,0,1,0,1,95,0,0,5,24,36,35
+09005298400,"Census Tract 2984, Litchfield County, Connecticut",false,2,4039,999,180492,1,0,0,0,1,97,1,1,1,14,29,56
+09005300100,"Census Tract 3001, Litchfield County, Connecticut",false,3,3436,1002,127508,1,0,1,0,2,93,2,0,4,19,34,42
+09005300400,"Census Tract 3004, Litchfield County, Connecticut",false,3,3671,763,133109,7,0,3,0,7,77,3,3,0,17,28,54
+09005300500,"Census Tract 3005, Litchfield County, Connecticut",false,3,3440,1606,112866,1,0,1,0,7,86,6,0,3,24,30,43
+09005303100,"Census Tract 3031, Litchfield County, Connecticut",false,3,3701,891,125808,0,1,0,0,4,94,1,0,7,24,33,36
+09005342100,"Census Tract 3421, Litchfield County, Connecticut",false,3,3715,1342,130817,0,0,2,0,1,92,4,1,2,32,30,36
+09005349100,"Census Tract 3491, Litchfield County, Connecticut",false,3,3412,1902,111160,1,0,2,0,2,86,9,0,4,30,36,30
+09005349200,"Census Tract 3492, Litchfield County, Connecticut",false,4,3050,1132,82993,1,0,4,0,2,92,0,1,6,42,26,27
+09005360100,"Census Tract 3601, Litchfield County, Connecticut",false,4,3073,2042,85906,2,0,0,0,7,84,2,4,2,30,29,39
+09005360200,"Census Tract 3602, Litchfield County, Connecticut",false,3,3502,3115,123411,0,0,4,0,2,92,1,1,2,27,34,37
+09005360300,"Census Tract 3603, Litchfield County, Connecticut",false,4,3256,1349,91701,3,0,0,0,18,74,3,2,9,38,34,19
+09005360400,"Census Tract 3604, Litchfield County, Connecticut",false,4,3340,2512,86943,0,0,0,0,3,90,6,1,12,25,36,27
+09005362101,"Census Tract 3621.01, Litchfield County, Connecticut",false,3,3183,1973,106240,2,0,3,0,5,88,1,1,6,9,33,53
+09005362102,"Census Tract 3621.02, Litchfield County, Connecticut",false,3,3671,2560,135482,0,1,1,0,2,93,0,2,1,35,17,47
+09005425300,"Census Tract 4253, Litchfield County, Connecticut",false,3,3463,1598,118154,1,0,0,0,9,84,5,1,3,37,35,26
+09005425400,"Census Tract 4254, Litchfield County, Connecticut",false,3,3474,1847,108184,1,0,1,0,5,88,5,0,4,27,43,25
+09005425500,"Census Tract 4255, Litchfield County, Connecticut",false,3,2921,1416,93365,1,0,0,0,2,88,9,0,11,43,29,17
+09005425700,"Census Tract 4257, Litchfield County, Connecticut",false,3,3012,2059,88290,3,0,2,0,4,83,2,5,2,36,30,32
+09007541301,"Census Tract 5413.01, Middlesex County, Connecticut",false,2,1919,1255,78223,6,2,24,0,0,65,4,1,2,6,30,62
+09007541401,"Census Tract 5414.01, Middlesex County, Connecticut",false,2,3712,1091,152569,3,0,3,0,4,87,3,1,1,21,24,54
+09007570100,"Census Tract 5701, Middlesex County, Connecticut",false,3,2765,2184,104936,11,1,5,0,15,58,9,1,4,11,28,58
+09007580100,"Census Tract 5801, Middlesex County, Connecticut",false,3,3264,1842,115527,0,0,2,0,2,95,1,0,2,35,31,32
+09007585100,"Census Tract 5851, Middlesex County, Connecticut",false,2,3479,2932,141604,0,0,1,0,1,92,5,0,3,17,23,57
+09009120100,"Census Tract 1201, New Haven County, Connecticut",false,3,3112,2887,94652,5,0,2,0,9,78,2,4,4,35,39,22
+09009120200,"Census Tract 1202, New Haven County, Connecticut",true,4,2896,2853,66425,16,0,2,0,17,55,6,4,14,37,30,19
+09009125100,"Census Tract 1251, New Haven County, Connecticut",false,3,3375,1947,106789,1,0,2,0,6,81,9,0,4,25,36,34
+09009125200,"Census Tract 1252, New Haven County, Connecticut",false,5,2792,2644,58364,23,0,1,0,13,52,1,9,4,38,34,24
+09009125300,"Census Tract 1253, New Haven County, Connecticut",false,5,3196,2044,66875,10,0,2,0,14,60,9,5,7,45,27,20
+09009125400,"Census Tract 1254, New Haven County, Connecticut",true,5,3012,1556,63612,22,0,1,0,10,52,7,9,25,35,21,19
+09009130101,"Census Tract 1301.01, New Haven County, Connecticut",false,3,3196,2190,95684,1,0,0,0,8,86,5,1,1,38,33,27
+09009130102,"Census Tract 1301.02, New Haven County, Connecticut",false,3,3547,1218,114587,5,0,1,0,4,85,2,4,7,27,41,25
+09009130201,"Census Tract 1302.01, New Haven County, Connecticut",false,3,4274,1256,156034,1,0,6,0,5,87,1,1,2,21,17,59
+09009130202,"Census Tract 1302.02, New Haven County, Connecticut",false,3,3593,1633,117509,1,0,3,0,8,82,2,4,4,29,42,24
+09009140101,"Census Tract 1401.01, New Haven County, Connecticut",false,1,1430,594,125387,8,3,11,0,12,63,4,0,1,0,7,92
+09009140102,"Census Tract 1401.02, New Haven County, Connecticut",false,1,1280,1590,106529,28,0,19,0,5,37,6,5,2,10,9,78
+09009140200,"Census Tract 1402, New Haven County, Connecticut",true,5,1079,354,20601,40,0,0,0,17,39,3,1,33,29,16,23
+09009140300,"Census Tract 1403, New Haven County, Connecticut",true,6,2915,601,48566,27,0,2,0,28,19,11,13,13,40,40,6
+09009140400,"Census Tract 1404, New Haven County, Connecticut",true,3,2870,1206,96924,29,1,3,0,19,14,8,27,22,33,19,25
+09009140500,"Census Tract 1405, New Haven County, Connecticut",true,5,3238,1059,62917,31,2,0,0,19,14,10,24,19,40,26,16
+09009140600,"Census Tract 1406, New Haven County, Connecticut",true,6,2733,1714,47618,37,0,1,0,25,13,5,19,20,48,23,9
+09009140700,"Census Tract 1407, New Haven County, Connecticut",true,5,1901,1849,36932,45,0,8,0,5,22,2,18,16,29,16,39
+09009140800,"Census Tract 1408, New Haven County, Connecticut",true,6,2507,1523,43027,65,0,1,0,9,10,3,12,24,37,28,11
+09009140900,"Census Tract 1409, New Haven County, Connecticut",true,4,2667,1776,65098,46,0,9,0,14,23,4,4,9,29,37,25
+09009141000,"Census Tract 1410, New Haven County, Connecticut",false,2,3035,1603,126610,17,0,1,0,4,68,8,2,0,14,15,71
+09009141100,"Census Tract 1411, New Haven County, Connecticut",false,3,3194,1008,114864,34,0,10,0,4,46,5,1,0,14,11,75
+09009141200,"Census Tract 1412, New Haven County, Connecticut",true,4,3077,1685,78732,51,5,1,0,9,15,10,9,10,32,29,29
+09009141301,"Census Tract 1413.01, New Haven County, Connecticut",false,4,2184,1922,51588,38,0,4,0,6,37,13,3,12,30,23,35
+09009141400,"Census Tract 1414, New Haven County, Connecticut",true,4,2955,1700,76632,63,0,0,0,1,17,7,12,5,42,18,34
+09009141500,"Census Tract 1415, New Haven County, Connecticut",true,6,2790,2628,45984,84,0,0,0,3,3,5,5,13,48,22,18
+09009141600,"Census Tract 1416, New Haven County, Connecticut",true,4,2494,1583,59111,57,0,4,0,7,16,4,12,10,41,21,28
+09009141800,"Census Tract 1418, New Haven County, Connecticut",false,2,2534,1640,116918,20,0,25,0,8,40,2,5,2,9,15,74
+09009141900,"Census Tract 1419, New Haven County, Connecticut",false,2,2446,2352,116010,9,0,10,0,9,68,5,0,11,2,7,80
+09009142000,"Census Tract 1420, New Haven County, Connecticut",false,2,2032,1566,82702,12,0,13,0,7,53,9,5,4,9,11,76
+09009142100,"Census Tract 1421, New Haven County, Connecticut",true,4,2494,597,66751,13,1,3,0,22,34,3,23,15,29,13,44
+09009142200,"Census Tract 1422, New Haven County, Connecticut",false,3,2187,928,78527,10,0,5,0,4,70,2,8,6,9,14,71
+09009142300,"Census Tract 1423, New Haven County, Connecticut",true,5,2482,2165,46160,24,0,0,0,23,11,11,30,28,33,19,20
+09009142400,"Census Tract 1424, New Haven County, Connecticut",true,6,2700,1810,46412,28,0,3,0,26,9,6,27,21,49,23,6
+09009142500,"Census Tract 1425, New Haven County, Connecticut",true,5,2876,2087,58680,16,0,0,0,39,30,1,14,19,23,32,26
+09009142601,"Census Tract 1426.01, New Haven County, Connecticut",true,4,2571,2334,70785,34,0,5,0,26,17,5,13,10,32,24,34
+09009142604,"Census Tract 1426.04, New Haven County, Connecticut",true,3,3019,1053,96433,21,0,1,0,43,30,1,3,14,28,28,31
+09009142605,"Census Tract 1426.05, New Haven County, Connecticut",true,3,1373,2222,39517,36,0,1,0,24,29,0,9,26,30,33,10
+09009142700,"Census Tract 1427, New Haven County, Connecticut",true,5,2802,2546,56264,23,0,2,0,20,23,5,26,19,28,16,37
+09009142800,"Census Tract 1428, New Haven County, Connecticut",false,3,3020,1838,104608,5,0,4,0,9,76,4,1,13,30,20,37
+09009150100,"Census Tract 1501, New Haven County, Connecticut",false,2,2533,2423,115320,4,0,6,0,2,83,2,3,4,9,19,68
+09009150200,"Census Tract 1502, New Haven County, Connecticut",false,3,2864,1512,104717,9,0,11,0,2,75,2,1,5,23,29,43
+09009150300,"Census Tract 1503, New Haven County, Connecticut",false,3,3023,1658,112138,5,0,8,0,13,68,5,0,2,27,28,43
+09009150400,"Census Tract 1504, New Haven County, Connecticut",false,3,2787,1925,96235,6,0,8,0,3,76,3,4,1,35,25,39
+09009150500,"Census Tract 1505, New Haven County, Connecticut",false,2,3472,1627,138992,5,0,5,0,3,85,2,0,6,16,25,54
+09009150600,"Census Tract 1506, New Haven County, Connecticut",false,2,3409,2646,150684,3,0,11,0,4,78,3,1,10,20,24,46
+09009150700,"Census Tract 1507, New Haven County, Connecticut",false,2,3579,1513,151502,2,0,5,0,3,86,2,1,4,16,28,53
+09009150800,"Census Tract 1508, New Haven County, Connecticut",false,2,2907,1677,124607,2,0,12,0,1,81,3,1,4,16,29,50
+09009150900,"Census Tract 1509, New Haven County, Connecticut",false,2,3332,1419,145202,2,0,1,0,4,91,2,0,2,18,23,57
+09009151000,"Census Tract 1510, New Haven County, Connecticut",false,3,2991,1814,119138,1,0,2,0,1,89,6,0,2,25,21,52
+09009151100,"Census Tract 1511, New Haven County, Connecticut",false,2,3138,2826,129262,0,0,4,0,2,87,3,3,2,20,26,52
+09009151200,"Census Tract 1512, New Haven County, Connecticut",false,3,3159,1320,116383,2,0,5,0,4,85,4,0,4,30,26,40
+09009154101,"Census Tract 1541.01, New Haven County, Connecticut",true,4,2847,849,78084,23,1,12,0,22,25,5,13,14,35,30,22
+09009154102,"Census Tract 1541.02, New Haven County, Connecticut",true,3,2840,2090,91021,36,0,3,0,19,28,9,5,9,33,30,27
+09009154200,"Census Tract 1542, New Haven County, Connecticut",false,4,2647,2451,64883,30,0,5,0,16,32,4,13,6,34,30,29
+09009154500,"Census Tract 1545, New Haven County, Connecticut",true,4,2820,1826,64666,20,0,0,0,14,49,4,14,7,42,30,21
+09009154600,"Census Tract 1546, New Haven County, Connecticut",true,4,2832,1611,74529,18,2,6,0,7,41,13,14,24,23,28,25
+09009154700,"Census Tract 1547, New Haven County, Connecticut",false,2,3319,2311,135918,6,0,2,0,4,82,5,1,5,30,26,40
+09009154800,"Census Tract 1548, New Haven County, Connecticut",false,3,3260,1845,105752,3,0,1,0,8,84,2,2,3,37,25,35
+09009154900,"Census Tract 1549, New Haven County, Connecticut",false,3,2675,1500,85293,14,0,7,0,11,55,5,7,8,38,25,29
+09009155000,"Census Tract 1550, New Haven County, Connecticut",false,3,2909,1956,90162,16,2,1,0,18,39,6,18,20,36,24,20
+09009155100,"Census Tract 1551, New Haven County, Connecticut",false,4,2577,1413,65195,16,1,5,0,8,59,4,7,18,40,17,25
+09009157100,"Census Tract 1571, New Haven County, Connecticut",false,3,3152,1024,114179,6,0,12,0,1,75,6,0,2,24,22,52
+09009157200,"Census Tract 1572, New Haven County, Connecticut",false,2,3702,1259,161503,12,0,6,0,2,78,1,1,1,24,13,62
+09009157300,"Census Tract 1573, New Haven County, Connecticut",false,2,3712,1228,182501,1,0,9,0,4,85,1,1,1,14,16,69
+09009157400,"Census Tract 1574, New Haven County, Connecticut",false,2,3544,1502,160770,5,0,15,0,1,76,2,2,1,13,16,70
+09009160100,"Census Tract 1601, New Haven County, Connecticut",false,2,4258,1142,194929,1,2,17,0,2,73,4,0,0,4,10,86
+09009160200,"Census Tract 1602, New Haven County, Connecticut",false,2,4190,1793,186581,6,0,14,0,5,72,3,0,2,9,10,78
+09009161100,"Census Tract 1611, New Haven County, Connecticut",false,2,4656,1860,191667,2,0,6,0,3,86,3,0,4,22,15,60
+09009165100,"Census Tract 1651, New Haven County, Connecticut",false,3,3036,1500,99389,20,1,4,0,12,45,10,7,7,20,31,43
+09009165200,"Census Tract 1652, New Haven County, Connecticut",false,2,3182,986,149965,4,0,3,0,4,84,4,0,1,11,14,75
+09009165300,"Census Tract 1653, New Haven County, Connecticut",false,2,3280,937,150310,13,0,1,0,1,81,3,1,1,8,15,76
+09009165400,"Census Tract 1654, New Haven County, Connecticut",false,3,2612,2238,104415,24,1,2,0,3,56,8,6,4,22,24,49
+09009165500,"Census Tract 1655, New Haven County, Connecticut",false,5,3102,1671,67180,61,0,1,0,3,17,4,14,10,33,43,13
+09009165600,"Census Tract 1656, New Haven County, Connecticut",false,3,2972,2073,90416,50,0,1,0,2,32,4,11,6,31,28,36
+09009165700,"Census Tract 1657, New Haven County, Connecticut",false,3,3633,1550,104384,43,0,0,0,8,30,12,8,5,27,25,42
+09009165801,"Census Tract 1658.01, New Haven County, Connecticut",false,2,1988,2451,84211,39,0,13,0,7,36,1,6,3,24,20,54
+09009165802,"Census Tract 1658.02, New Haven County, Connecticut",false,3,3737,1410,137553,25,0,9,0,6,58,2,1,4,20,21,54
+09009165900,"Census Tract 1659, New Haven County, Connecticut",false,3,3582,2493,139613,11,0,5,0,7,75,1,1,2,15,23,61
+09009166002,"Census Tract 1660.02, New Haven County, Connecticut",false,2,3203,1768,131844,12,0,7,0,3,74,2,2,4,18,17,62
+09009166003,"Census Tract 1660.03, New Haven County, Connecticut",false,3,2664,1066,94821,29,0,2,0,3,56,1,8,0,35,30,35
+09009166004,"Census Tract 1660.04, New Haven County, Connecticut",false,2,2228,2014,99660,11,0,17,0,2,62,8,0,2,15,19,65
+09009167101,"Census Tract 1671.01, New Haven County, Connecticut",false,3,3119,1544,115969,9,0,4,0,2,82,1,2,1,35,15,50
+09009167102,"Census Tract 1671.02, New Haven County, Connecticut",false,2,3196,1670,158903,1,0,8,0,5,83,4,0,1,5,11,83
+09009167201,"Census Tract 1672.01, New Haven County, Connecticut",false,2,2844,1752,117818,8,0,6,0,3,78,2,3,2,28,18,52
+09009167202,"Census Tract 1672.02, New Haven County, Connecticut",false,3,2833,1718,102084,0,0,7,0,3,87,2,0,5,38,20,37
+09009167301,"Census Tract 1673.01, New Haven County, Connecticut",false,2,3054,2475,126815,8,0,2,0,2,84,1,2,4,27,27,41
+09009170100,"Census Tract 1701, New Haven County, Connecticut",true,5,1935,616,38775,25,0,3,0,33,17,5,17,44,32,20,4
+09009170200,"Census Tract 1702, New Haven County, Connecticut",true,5,2298,586,49646,21,0,0,0,42,14,18,5,27,45,17,12
+09009170300,"Census Tract 1703, New Haven County, Connecticut",true,4,2753,859,61542,23,0,0,0,31,19,14,12,21,27,38,13
+09009170400,"Census Tract 1704, New Haven County, Connecticut",false,3,2643,658,85505,12,0,2,0,21,39,15,12,12,35,34,19
+09009170500,"Census Tract 1705, New Haven County, Connecticut",false,3,3240,1980,117466,4,0,2,0,10,74,9,1,5,35,29,31
+09009170600,"Census Tract 1706, New Haven County, Connecticut",false,4,2624,1068,74181,23,0,1,0,15,46,13,1,16,33,27,24
+09009170700,"Census Tract 1707, New Haven County, Connecticut",false,4,2420,1072,68868,4,0,0,0,18,44,21,12,5,36,25,34
+09009170800,"Census Tract 1708, New Haven County, Connecticut",false,3,2557,2765,76112,9,0,1,0,37,44,4,5,16,35,29,21
+09009170900,"Census Tract 1709, New Haven County, Connecticut",true,5,1944,1316,39775,12,0,0,0,28,40,10,9,25,35,28,11
+09009171000,"Census Tract 1710, New Haven County, Connecticut",true,4,1804,855,42082,18,0,1,0,29,34,9,10,26,36,30,9
+09009171100,"Census Tract 1711, New Haven County, Connecticut",false,3,2679,2450,87063,5,0,6,0,22,65,1,1,7,33,36,23
+09009171201,"Census Tract 1712.01, New Haven County, Connecticut",false,3,2980,1979,111628,5,2,5,0,8,73,5,1,4,33,27,36
+09009171202,"Census Tract 1712.02, New Haven County, Connecticut",false,3,2823,1410,99084,2,0,5,0,8,77,5,3,4,23,44,29
+09009171300,"Census Tract 1713, New Haven County, Connecticut",false,3,2615,1615,80459,7,0,0,0,15,74,2,2,5,50,32,13
+09009171400,"Census Tract 1714, New Haven County, Connecticut",true,4,2106,849,53872,5,0,0,0,35,39,5,16,16,37,36,11
+09009171500,"Census Tract 1715, New Haven County, Connecticut",true,4,2234,1420,51182,12,0,1,0,21,19,15,32,22,57,11,10
+09009171600,"Census Tract 1716, New Haven County, Connecticut",false,3,2742,2112,92517,12,0,3,0,19,48,11,7,22,39,22,17
+09009171700,"Census Tract 1717, New Haven County, Connecticut",false,3,2828,1612,105921,2,0,2,0,13,78,3,1,6,26,27,41
+09009175100,"Census Tract 1751, New Haven County, Connecticut",false,2,2105,1321,85198,2,0,2,0,14,71,4,7,4,38,31,27
+09009175200,"Census Tract 1752, New Haven County, Connecticut",false,3,1946,1296,77726,3,0,9,0,13,68,3,4,7,27,22,43
+09009175300,"Census Tract 1753, New Haven County, Connecticut",false,2,2253,1820,96183,1,0,5,0,12,72,10,0,3,38,31,28
+09009175400,"Census Tract 1754, New Haven County, Connecticut",false,2,2331,1752,104176,1,0,10,1,10,54,1,24,8,39,24,30
+09009175501,"Census Tract 1755.01, New Haven County, Connecticut",false,2,2835,547,149467,0,0,7,0,0,86,7,0,8,28,29,35
+09009175502,"Census Tract 1755.02, New Haven County, Connecticut",false,2,1954,2464,89556,3,0,2,0,0,95,0,0,5,26,23,46
+09009175600,"Census Tract 1756, New Haven County, Connecticut",false,2,2467,2150,110332,2,0,6,0,6,82,2,3,5,35,21,40
+09009175700,"Census Tract 1757, New Haven County, Connecticut",false,2,2708,730,123182,0,0,3,0,7,89,0,1,1,32,29,37
+09009175800,"Census Tract 1758, New Haven County, Connecticut",false,2,2701,1495,146110,2,0,14,0,2,77,4,1,6,23,23,48
+09009175900,"Census Tract 1759, New Haven County, Connecticut",false,2,1988,2398,87372,0,0,0,0,1,96,1,2,10,24,32,34
+09009176000,"Census Tract 1760, New Haven County, Connecticut",false,2,2498,2402,113546,0,0,3,0,2,94,0,0,6,26,19,49
+09009180101,"Census Tract 1801.01, New Haven County, Connecticut",false,3,2717,917,105987,0,0,1,0,0,95,0,4,11,39,22,28
+09009180102,"Census Tract 1801.02, New Haven County, Connecticut",false,3,2975,1664,90815,10,0,3,0,1,67,16,4,6,49,17,27
+09009180200,"Census Tract 1802, New Haven County, Connecticut",false,3,2906,2043,93527,6,0,7,0,10,63,0,15,8,36,28,28
+09009180300,"Census Tract 1803, New Haven County, Connecticut",false,4,2653,881,74598,2,0,1,1,8,68,16,4,8,48,29,15
+09009180400,"Census Tract 1804, New Haven County, Connecticut",false,3,3351,880,115252,7,0,11,0,5,59,2,16,8,43,30,19
+09009180500,"Census Tract 1805, New Haven County, Connecticut",false,3,2971,1762,93685,12,0,5,0,11,55,4,13,13,23,37,27
+09009180601,"Census Tract 1806.01, New Haven County, Connecticut",false,3,2955,1167,90251,1,0,0,0,5,90,1,2,11,45,24,20
+09009180602,"Census Tract 1806.02, New Haven County, Connecticut",false,3,3086,1355,99887,3,0,0,0,4,92,1,0,2,32,33,33
+09009184101,"Census Tract 1841.01, New Haven County, Connecticut",false,3,2329,2694,82319,7,0,5,0,1,85,2,1,3,23,32,43
+09009184200,"Census Tract 1842, New Haven County, Connecticut",false,3,2608,1807,81287,4,0,8,0,7,72,4,6,3,30,20,47
+09009184300,"Census Tract 1843, New Haven County, Connecticut",false,3,3116,2004,116822,0,0,2,0,4,92,1,0,2,31,15,52
+09009184400,"Census Tract 1844, New Haven County, Connecticut",false,2,3031,1547,134216,0,0,1,0,7,91,1,0,2,16,21,61
+09009184500,"Census Tract 1845, New Haven County, Connecticut",false,3,3197,1008,124755,1,0,1,0,2,94,2,0,1,19,17,63
+09009184600,"Census Tract 1846, New Haven County, Connecticut",false,2,3610,1130,184487,0,0,0,0,0,97,3,0,2,17,14,67
+09009184700,"Census Tract 1847, New Haven County, Connecticut",false,3,3256,2517,121630,2,0,5,0,2,82,3,6,3,26,32,40
+09009186100,"Census Tract 1861, New Haven County, Connecticut",false,2,3179,3030,131830,0,0,2,0,2,92,3,1,2,33,29,36
+09009186200,"Census Tract 1862, New Haven County, Connecticut",false,2,3299,2522,133494,0,0,1,0,2,95,1,0,6,33,28,34
+09009190200,"Census Tract 1902, New Haven County, Connecticut",false,2,3769,1394,167231,0,0,6,0,3,90,1,0,0,11,14,75
+09009190301,"Census Tract 1903.01, New Haven County, Connecticut",false,2,3916,2254,163351,0,0,4,0,7,87,2,0,2,17,21,60
+09009190302,"Census Tract 1903.02, New Haven County, Connecticut",false,3,3722,2138,138974,4,0,3,0,3,89,2,0,2,10,34,54
+09009190303,"Census Tract 1903.03, New Haven County, Connecticut",false,2,3863,1146,165941,1,0,3,0,3,88,4,1,4,21,17,58
+09009341100,"Census Tract 3411, New Haven County, Connecticut",false,3,3447,2644,114410,1,0,0,0,3,92,2,1,5,31,27,36
+09009343101,"Census Tract 3431.01, New Haven County, Connecticut",false,2,3612,1347,149107,16,1,7,0,2,60,4,10,1,14,18,67
+09009343102,"Census Tract 3431.02, New Haven County, Connecticut",false,2,3592,1635,157847,2,0,5,0,2,87,4,0,2,13,20,66
+09009343200,"Census Tract 3432, New Haven County, Connecticut",false,2,3713,2185,149951,0,0,6,0,2,84,8,0,4,20,13,62
+09009343300,"Census Tract 3433, New Haven County, Connecticut",false,2,3382,2814,145879,0,0,2,0,1,92,2,2,7,13,16,65
+09009343400,"Census Tract 3434, New Haven County, Connecticut",false,3,3617,2226,143211,2,0,13,0,0,72,9,3,2,14,25,60
+09009344100,"Census Tract 3441, New Haven County, Connecticut",false,3,3612,1846,129940,1,1,2,0,3,87,4,3,3,15,31,50
+09009344200,"Census Tract 3442, New Haven County, Connecticut",false,2,3715,1067,163638,0,0,12,0,1,85,1,1,0,21,23,56
+09009345100,"Census Tract 3451, New Haven County, Connecticut",false,3,3121,3151,91165,13,0,2,0,6,71,5,3,6,30,43,21
+09009345201,"Census Tract 3452.01, New Haven County, Connecticut",false,3,3531,2368,102931,3,0,4,0,4,79,6,4,3,34,33,29
+09009345202,"Census Tract 3452.02, New Haven County, Connecticut",false,3,3465,1532,127876,14,0,2,0,6,69,2,7,6,22,37,34
+09009345300,"Census Tract 3453, New Haven County, Connecticut",false,3,3076,2251,101568,8,0,2,0,16,66,7,1,7,29,30,34
+09009345400,"Census Tract 3454, New Haven County, Connecticut",false,3,3293,2541,100775,6,0,2,0,3,75,8,5,14,22,31,33
+09009346101,"Census Tract 3461.01, New Haven County, Connecticut",false,3,3793,2854,125407,0,0,3,0,3,93,1,0,3,21,28,48
+09009346102,"Census Tract 3461.02, New Haven County, Connecticut",false,3,3975,2133,151835,3,0,0,0,5,84,1,7,5,29,28,39
+09009347100,"Census Tract 3471, New Haven County, Connecticut",false,3,3696,2019,130284,5,0,0,0,3,85,6,0,2,25,24,49
+09009347200,"Census Tract 3472, New Haven County, Connecticut",false,3,3640,1305,134692,6,0,1,0,1,88,4,0,2,28,30,40
+09009348111,"Census Tract 3481.11, New Haven County, Connecticut",false,3,3884,872,149526,1,0,1,0,5,89,1,3,3,21,26,49
+09009348122,"Census Tract 3481.22, New Haven County, Connecticut",false,2,3920,1388,162680,0,0,1,0,2,93,3,0,2,15,22,62
+09009348123,"Census Tract 3481.23, New Haven County, Connecticut",false,3,4183,2036,163845,0,0,3,0,6,85,6,0,2,15,21,62
+09009348124,"Census Tract 3481.24, New Haven County, Connecticut",false,3,2795,1464,82405,0,1,3,0,0,95,1,0,4,17,39,41
+09009348125,"Census Tract 3481.25, New Haven County, Connecticut",false,3,3494,2259,106056,12,0,6,0,0,81,1,0,3,24,23,50
+09009350101,"Census Tract 3501.01, New Haven County, Connecticut",true,6,1374,2329,21208,17,0,3,0,31,29,2,18,50,30,10,10
+09009350200,"Census Tract 3502, New Haven County, Connecticut",true,4,2666,1259,60762,47,0,1,0,22,11,3,16,35,39,23,3
+09009350300,"Census Tract 3503, New Haven County, Connecticut",true,7,3016,625,41875,32,0,0,0,43,7,6,12,34,37,24,5
+09009350400,"Census Tract 3504, New Haven County, Connecticut",true,9,3022,806,34589,39,1,0,0,18,21,3,19,34,40,15,11
+09009350500,"Census Tract 3505, New Haven County, Connecticut",true,8,2732,845,35985,14,0,1,0,16,11,3,57,33,44,16,7
+09009350800,"Census Tract 3508, New Haven County, Connecticut",true,5,2879,1774,59505,35,0,0,0,25,32,2,6,22,26,34,18
+09009350900,"Census Tract 3509, New Haven County, Connecticut",true,4,3539,674,92087,18,0,0,0,38,32,5,6,6,26,47,21
+09009351000,"Census Tract 3510, New Haven County, Connecticut",true,5,2975,1656,58779,19,1,0,0,36,23,6,15,25,19,42,15
+09009351100,"Census Tract 3511, New Haven County, Connecticut",true,5,2553,1571,49493,29,0,0,0,23,18,9,20,23,38,27,12
+09009351200,"Census Tract 3512, New Haven County, Connecticut",true,6,2738,1416,49740,32,0,0,0,20,26,6,16,28,33,24,14
+09009351300,"Census Tract 3513, New Haven County, Connecticut",true,5,3082,2153,56390,14,1,2,0,15,35,13,20,15,45,28,12
+09009351400,"Census Tract 3514, New Haven County, Connecticut",true,6,2836,1483,46017,20,1,4,0,29,23,5,18,32,27,28,13
+09009351500,"Census Tract 3515, New Haven County, Connecticut",true,5,3464,1601,73880,13,0,6,0,12,52,8,8,19,41,25,15
+09009351601,"Census Tract 3516.01, New Haven County, Connecticut",false,5,3079,1283,60511,10,0,0,0,16,42,1,31,10,45,23,22
+09009351602,"Census Tract 3516.02, New Haven County, Connecticut",false,4,3068,2658,83116,12,0,1,0,10,75,0,2,18,35,23,24
+09009351700,"Census Tract 3517, New Haven County, Connecticut",true,10,3550,1111,36653,33,0,1,0,32,26,6,2,12,58,22,8
+09009351800,"Census Tract 3518, New Haven County, Connecticut",false,4,3046,1737,67967,15,0,1,0,12,61,9,2,14,28,31,27
+09009351900,"Census Tract 3519, New Haven County, Connecticut",false,3,3122,991,109781,6,0,3,0,14,69,1,6,3,45,26,26
+09009352000,"Census Tract 3520, New Haven County, Connecticut",false,3,3461,1718,101610,10,0,1,0,10,64,6,9,5,29,33,33
+09009352100,"Census Tract 3521, New Haven County, Connecticut",true,5,3092,1647,61679,34,0,0,0,24,37,3,2,9,35,31,25
+09009352200,"Census Tract 3522, New Haven County, Connecticut",true,5,2795,912,55246,21,0,0,1,33,35,5,6,21,32,31,17
+09009352300,"Census Tract 3523, New Haven County, Connecticut",true,5,2902,1068,59640,34,0,0,0,29,26,8,4,14,35,41,10
+09009352400,"Census Tract 3524, New Haven County, Connecticut",true,5,3229,1373,62240,24,0,2,0,20,34,11,9,10,36,35,19
+09009352500,"Census Tract 3525, New Haven County, Connecticut",false,4,3013,1251,71926,27,0,3,0,17,47,5,0,13,34,32,21
+09009352600,"Census Tract 3526, New Haven County, Connecticut",true,5,3109,2002,58954,15,0,4,0,22,47,6,5,16,40,26,17
+09009352701,"Census Tract 3527.01, New Haven County, Connecticut",false,4,2391,1569,54369,14,1,3,0,19,45,2,16,10,34,28,28
+09009352702,"Census Tract 3527.02, New Haven County, Connecticut",false,4,2871,2242,74889,29,0,1,0,10,46,1,12,14,42,22,23
+09009352800,"Census Tract 3528, New Haven County, Connecticut",true,4,3110,2381,72685,13,0,7,0,17,41,12,9,6,34,28,32
+09009361100,"Census Tract 3611, New Haven County, Connecticut",false,3,3970,2463,124655,2,0,1,0,3,88,1,5,4,25,36,36
+09009361200,"Census Tract 3612, New Haven County, Connecticut",false,4,3637,2326,99371,2,0,3,0,9,84,3,0,2,29,40,29
+09009361300,"Census Tract 3613, New Haven County, Connecticut",false,3,3806,1616,121025,0,0,2,0,5,92,0,0,3,36,32,29
+09009361401,"Census Tract 3614.01, New Haven County, Connecticut",false,2,1263,1383,57585,11,0,21,0,5,55,4,4,4,7,11,78
+09009361402,"Census Tract 3614.02, New Haven County, Connecticut",false,3,2223,135,78065,11,0,20,0,8,54,4,3,2,0,24,74
+09009361500,"Census Tract 3615, New Haven County, Connecticut",false,3,2482,1877,72046,26,0,6,0,10,33,11,14,13,40,24,23
+34003001001,"Census Tract 10.01, Bergen County, New Jersey",false,1,2790,1074,195179,0,0,12,0,3,80,5,0,3,3,18,76
+34003001002,"Census Tract 10.02, Bergen County, New Jersey",false,1,2830,1161,217763,1,0,19,0,1,77,3,0,1,9,12,78
+34003002100,"Census Tract 21, Bergen County, New Jersey",false,1,3561,518,247014,3,0,32,0,7,55,3,0,3,6,8,83
+34003002200,"Census Tract 22, Bergen County, New Jersey",false,2,2791,1806,171713,3,0,31,0,9,52,3,1,5,18,14,62
+34003002300,"Census Tract 23, Bergen County, New Jersey",false,2,2810,1945,185354,0,0,32,0,2,61,3,1,4,26,14,56
+34003020100,"Census Tract 201, Bergen County, New Jersey",false,1,2768,1612,191964,1,0,6,0,5,77,7,3,1,11,24,65
+34003024100,"Census Tract 241, Bergen County, New Jersey",false,1,2869,1945,243106,0,0,31,0,4,60,4,0,2,16,12,71
+34003024200,"Census Tract 242, Bergen County, New Jersey",false,2,2937,1746,195658,0,0,19,0,3,74,4,0,0,14,21,65
+34003026100,"Census Tract 261, Bergen County, New Jersey",false,1,2876,1586,225166,2,0,7,0,5,80,4,1,5,16,19,60
+34003026200,"Census Tract 262, Bergen County, New Jersey",false,1,2835,1883,206129,3,0,7,0,5,77,5,2,2,12,22,64
+34003027000,"Census Tract 270, Bergen County, New Jersey",false,1,2912,1438,249226,1,0,13,0,7,77,1,1,0,5,9,86
+34003032102,"Census Tract 321.02, Bergen County, New Jersey",false,2,2904,2216,192363,3,0,6,0,10,73,7,1,1,13,24,62
+34003032103,"Census Tract 321.03, Bergen County, New Jersey",false,2,1608,2543,100841,5,0,9,0,4,80,1,1,4,13,21,63
+34003032104,"Census Tract 321.04, Bergen County, New Jersey",false,2,3052,732,143667,8,1,13,0,14,56,4,4,9,24,25,42
+34003032201,"Census Tract 322.01, Bergen County, New Jersey",false,1,2511,2261,190992,0,0,14,0,8,76,2,1,3,11,10,75
+34003032202,"Census Tract 322.02, Bergen County, New Jersey",false,2,2474,2036,141341,2,0,16,0,13,67,1,1,5,19,19,57
+34003034001,"Census Tract 340.01, Bergen County, New Jersey",false,1,1843,1215,139431,1,0,0,0,6,82,6,5,13,19,21,47
+34003034002,"Census Tract 340.02, Bergen County, New Jersey",false,1,2245,1670,161489,1,0,3,0,8,85,3,0,0,21,23,56
+34003035100,"Census Tract 351, Bergen County, New Jersey",false,1,2878,2902,218398,2,0,14,0,5,74,4,1,3,19,20,58
+34003035200,"Census Tract 352, Bergen County, New Jersey",false,1,3147,1890,259904,3,0,5,0,4,84,3,1,0,15,8,77
+34003043001,"Census Tract 430.01, Bergen County, New Jersey",false,1,3278,1521,228890,0,0,4,0,13,77,6,0,2,13,23,63
+34003043002,"Census Tract 430.02, Bergen County, New Jersey",false,2,2891,1779,181052,1,0,4,0,7,85,3,0,5,19,18,58
+34003044100,"Census Tract 441, Bergen County, New Jersey",false,1,3045,1984,211052,1,0,3,0,1,84,6,5,4,9,12,75
+34003044201,"Census Tract 442.01, Bergen County, New Jersey",false,1,2885,1239,214645,0,0,6,0,5,76,13,0,1,15,10,74
+34003044202,"Census Tract 442.02, Bergen County, New Jersey",false,1,2298,2134,172838,0,0,13,0,5,82,0,0,1,11,26,63
+34003047100,"Census Tract 471, Bergen County, New Jersey",false,1,3030,2077,233278,4,0,23,0,7,59,7,0,1,9,12,78
+34003047200,"Census Tract 472, Bergen County, New Jersey",false,1,2874,1577,270750,0,0,13,0,4,81,1,1,2,5,5,88
+34003049001,"Census Tract 490.01, Bergen County, New Jersey",false,1,2996,1499,261889,0,0,6,0,4,89,1,0,1,10,13,77
+34003049002,"Census Tract 490.02, Bergen County, New Jersey",false,1,2477,1930,192534,1,0,10,0,3,81,4,1,4,7,33,56
+34003053100,"Census Tract 531, Bergen County, New Jersey",false,1,3515,1259,247466,5,0,21,0,4,64,4,3,3,12,9,75
+34003053201,"Census Tract 532.01, Bergen County, New Jersey",false,2,3767,1496,241990,3,0,15,0,6,70,5,1,0,6,15,79
+34003053202,"Census Tract 532.02, Bergen County, New Jersey",false,1,3430,1101,246334,0,0,9,0,12,68,11,0,3,10,30,58
+34003056100,"Census Tract 561, Bergen County, New Jersey",false,1,2387,1644,168629,0,0,4,0,8,81,2,4,4,19,20,57
+34003056200,"Census Tract 562, Bergen County, New Jersey",false,1,2215,1755,151057,1,0,12,0,14,69,3,1,9,14,20,57
+34003058100,"Census Tract 581, Bergen County, New Jersey",false,1,2827,1386,190717,1,0,6,0,12,78,1,1,3,15,18,63
+34003058200,"Census Tract 582, Bergen County, New Jersey",false,1,2823,1972,191352,0,0,5,0,7,85,2,0,3,16,16,64
+34003059100,"Census Tract 591, Bergen County, New Jersey",false,1,2150,2131,162338,5,0,15,0,12,63,4,1,5,12,14,69
+34003059200,"Census Tract 592, Bergen County, New Jersey",false,1,2625,2192,185973,1,0,5,0,17,63,7,7,8,18,22,53
+34003061100,"Census Tract 611, Bergen County, New Jersey",false,1,2680,1789,199468,0,0,3,0,3,93,1,0,1,13,13,73
+34003061200,"Census Tract 612, Bergen County, New Jersey",false,1,2845,1127,193382,0,0,3,0,2,87,8,0,2,13,16,69
+34003061400,"Census Tract 614, Bergen County, New Jersey",false,1,2698,1725,205542,1,0,8,0,2,87,2,0,1,12,23,64
+36027010000,"Census Tract 100, Dutchess County, New York",true,3,2448,1552,95494,3,0,1,0,10,75,5,6,10,40,23,26
+36027020003,"Census Tract 200.03, Dutchess County, New York",false,2,2584,1543,121518,13,0,2,0,4,78,3,1,4,34,23,39
+36027020004,"Census Tract 200.04, Dutchess County, New York",false,2,2787,896,149368,10,0,2,0,9,76,2,2,0,25,27,47
+36027020005,"Census Tract 200.05, Dutchess County, New York",false,2,2612,1727,132765,4,0,2,0,6,86,2,0,8,17,34,41
+36027040001,"Census Tract 400.01, Dutchess County, New York",false,3,2293,1979,86037,1,0,1,0,10,83,0,5,13,36,32,19
+36027040003,"Census Tract 400.03, Dutchess County, New York",false,3,2396,1468,94891,8,0,1,0,17,68,1,4,9,41,31,20
+36027050102,"Census Tract 501.02, Dutchess County, New York",false,2,2764,1320,125945,5,0,6,0,7,74,4,5,6,23,30,41
+36027050103,"Census Tract 501.03, Dutchess County, New York",false,2,3013,1865,156585,1,0,1,0,8,86,4,1,2,29,26,43
+36027050104,"Census Tract 501.04, Dutchess County, New York",false,2,3325,2073,161075,3,0,6,0,1,72,15,2,7,20,19,55
+36027050203,"Census Tract 502.03, Dutchess County, New York",false,2,3181,1695,139196,2,0,13,0,7,74,3,0,2,29,25,44
+36027050204,"Census Tract 502.04, Dutchess County, New York",false,2,3321,926,161092,4,0,4,0,8,80,2,1,2,10,30,57
+36027050205,"Census Tract 502.05, Dutchess County, New York",false,2,2952,1851,135413,1,1,1,0,5,80,9,4,2,29,30,39
+36027060100,"Census Tract 601, Dutchess County, New York",false,2,2340,2007,120146,28,0,7,0,6,51,3,5,3,16,29,52
+36027060201,"Census Tract 602.01, Dutchess County, New York",false,2,2557,1571,108793,9,0,2,0,10,67,10,2,3,24,25,48
+36027060202,"Census Tract 602.02, Dutchess County, New York",false,2,2500,1971,101765,3,0,1,0,6,80,10,0,4,33,26,37
+36027060301,"Census Tract 603.01, Dutchess County, New York",false,2,3027,1466,127364,1,0,2,0,14,81,1,1,3,23,31,42
+36027060302,"Census Tract 603.02, Dutchess County, New York",false,2,2688,1036,136893,6,0,15,0,4,72,2,0,3,17,37,44
+36027060400,"Census Tract 604, Dutchess County, New York",false,2,1672,1026,88126,7,0,1,0,9,78,3,3,11,22,20,47
+36027070201,"Census Tract 702.01, Dutchess County, New York",false,2,2331,1342,98626,10,0,0,0,4,82,1,4,14,25,35,26
+36027070301,"Census Tract 703.01, Dutchess County, New York",false,3,2609,2368,95720,16,0,3,0,2,74,5,0,3,19,35,43
+36027070401,"Census Tract 704.01, Dutchess County, New York",false,2,2479,1055,113634,8,0,8,0,7,68,4,5,2,27,35,35
+36027080103,"Census Tract 801.03, Dutchess County, New York",false,2,2793,1483,151558,4,0,3,0,6,82,4,2,1,19,26,55
+36027080104,"Census Tract 801.04, Dutchess County, New York",false,2,2720,1405,141218,1,1,2,0,7,75,12,3,4,21,24,51
+36027080201,"Census Tract 802.01, Dutchess County, New York",false,2,2548,1528,133781,2,0,8,0,5,78,2,4,1,18,34,47
+36027080202,"Census Tract 802.02, Dutchess County, New York",false,2,2678,1002,136535,9,1,8,0,7,73,2,1,5,17,34,45
+36027110003,"Census Tract 1100.03, Dutchess County, New York",false,2,2775,1458,144014,5,0,1,0,5,88,1,0,5,27,28,40
+36027110004,"Census Tract 1100.04, Dutchess County, New York",false,2,2240,778,126430,1,0,0,0,8,75,8,8,4,31,19,47
+36027110005,"Census Tract 1100.05, Dutchess County, New York",false,2,2337,895,116525,1,0,5,0,10,76,0,9,10,27,28,35
+36027130003,"Census Tract 1300.03, Dutchess County, New York",false,2,2301,2271,101762,4,0,1,0,2,78,9,6,6,29,26,40
+36027130004,"Census Tract 1300.04, Dutchess County, New York",false,2,2775,592,145353,0,0,2,0,1,92,3,3,1,19,32,48
+36027130005,"Census Tract 1300.05, Dutchess County, New York",false,3,2784,1095,111043,1,0,0,0,11,85,0,3,3,40,25,32
+36027140101,"Census Tract 1401.01, Dutchess County, New York",false,3,2801,1385,105632,21,0,4,0,4,65,5,2,10,21,41,28
+36027140201,"Census Tract 1402.01, Dutchess County, New York",false,3,2644,1068,90906,19,0,0,0,12,69,1,0,0,43,23,34
+36027140202,"Census Tract 1402.02, Dutchess County, New York",false,3,2755,1909,102709,6,1,2,0,12,73,5,0,6,30,27,37
+36027140301,"Census Tract 1403.01, Dutchess County, New York",false,3,1757,1706,54670,15,0,1,0,6,61,5,12,15,25,37,23
+36027140302,"Census Tract 1403.02, Dutchess County, New York",false,2,2503,1040,100504,26,0,2,0,10,48,11,3,13,20,20,47
+36027140400,"Census Tract 1404, Dutchess County, New York",false,2,2934,1926,149299,5,0,8,0,3,77,5,3,1,11,29,60
+36027140500,"Census Tract 1405, Dutchess County, New York",false,2,2008,1280,97393,17,0,13,0,9,54,2,5,15,20,29,36
+36027140602,"Census Tract 1406.02, Dutchess County, New York",false,3,2896,1043,102962,8,0,8,0,6,72,6,0,3,21,30,46
+36027140700,"Census Tract 1407, Dutchess County, New York",false,2,2985,2413,135840,8,1,5,0,5,73,3,5,3,16,32,49
+36027140801,"Census Tract 1408.01, Dutchess County, New York",false,2,2681,1078,109352,11,0,2,0,5,79,3,0,3,30,17,51
+36027180001,"Census Tract 1800.01, Dutchess County, New York",false,2,2779,1602,130543,7,1,2,0,3,81,5,1,3,24,30,42
+36027190101,"Census Tract 1901.01, Dutchess County, New York",false,2,3057,1197,122268,3,1,6,0,3,82,2,2,3,23,24,50
+36027190102,"Census Tract 1901.02, Dutchess County, New York",false,2,2310,794,107224,6,0,7,0,3,73,4,6,6,35,35,24
+36027190203,"Census Tract 1902.03, Dutchess County, New York",false,2,2588,940,107197,11,1,3,0,12,67,3,4,8,24,42,25
+36027190204,"Census Tract 1902.04, Dutchess County, New York",false,2,3227,1720,133628,1,0,7,0,8,73,4,7,2,18,34,46
+36027190301,"Census Tract 1903.01, Dutchess County, New York",false,2,1797,1666,98621,11,0,3,0,13,63,8,3,6,19,42,33
+36027190401,"Census Tract 1904.01, Dutchess County, New York",false,3,2805,819,109953,11,0,0,0,7,64,4,13,17,28,29,26
+36027190402,"Census Tract 1904.02, Dutchess County, New York",false,3,2356,1318,93765,4,0,3,0,14,72,4,2,6,22,37,35
+36027200001,"Census Tract 2000.01, Dutchess County, New York",false,2,2583,1430,109210,4,0,3,0,5,82,2,4,5,27,22,46
+36027210101,"Census Tract 2101.01, Dutchess County, New York",false,2,2658,2125,110036,17,0,4,0,7,61,6,5,12,18,31,40
+36027210201,"Census Tract 2102.01, Dutchess County, New York",false,3,2753,1634,97887,30,1,2,0,9,50,3,5,5,22,34,39
+36027210301,"Census Tract 2103.01, Dutchess County, New York",false,2,3009,1603,124752,4,0,2,1,7,67,15,5,4,29,29,38
+36027220101,"Census Tract 2201.01, Dutchess County, New York",true,3,1687,1674,53308,17,0,0,0,20,45,15,3,14,36,31,18
+36027220102,"Census Tract 2201.02, Dutchess County, New York",true,5,723,353,15256,15,0,0,0,0,49,4,32,61,0,21,18
+36027220201,"Census Tract 2202.01, Dutchess County, New York",true,6,2617,1188,46556,43,0,0,0,14,21,12,10,18,40,34,8
+36027220300,"Census Tract 2203, Dutchess County, New York",true,3,1951,1875,56275,62,0,2,0,3,20,4,9,20,28,39,13
+36027220700,"Census Tract 2207, Dutchess County, New York",true,3,1774,1095,65081,56,2,0,0,5,28,7,2,13,29,36,22
+36027220801,"Census Tract 2208.01, Dutchess County, New York",true,2,2215,1792,98113,17,0,0,0,2,70,7,2,8,13,24,56
+36027220901,"Census Tract 2209.01, Dutchess County, New York",false,3,2530,1710,76498,39,4,0,0,7,44,5,1,15,15,33,36
+36027221001,"Census Tract 2210.01, Dutchess County, New York",false,2,2879,1701,121340,11,0,2,0,5,76,6,0,3,7,39,52
+36027221100,"Census Tract 2211, Dutchess County, New York",true,4,2114,1451,48673,30,1,1,0,8,24,22,14,21,30,35,14
+36027300000,"Census Tract 3000, Dutchess County, New York",false,3,2465,2155,73867,10,0,7,1,8,59,5,10,15,25,40,20
+36027410000,"Census Tract 4100, Dutchess County, New York",false,2,2693,776,117156,14,0,9,0,6,61,4,5,7,23,20,50
+36027610000,"Census Tract 6100, Dutchess County, New York",false,2,2965,38,139011,71,0,0,0,0,23,6,0,42,26,32,0
+36027640001,"Census Tract 6400.01, Dutchess County, New York",false,,,,,,,,,,,,,,,,
+36027640002,"Census Tract 6400.02, Dutchess County, New York",false,,,,,,,,,,,,,,,,
+36071000100,"Census Tract 1, Orange County, New York",false,3,2025,1196,77841,24,0,1,0,6,50,5,14,4,26,43,27
+36071000200,"Census Tract 2, Orange County, New York",true,3,2896,1004,91930,17,0,3,0,21,33,5,22,8,25,45,22
+36071000301,"Census Tract 3.01, Orange County, New York",true,5,2361,546,48879,15,0,0,0,18,12,9,46,18,48,31,3
+36071000302,"Census Tract 3.02, Orange County, New York",true,3,3043,1482,89203,10,0,4,0,19,13,9,46,20,32,16,32
+36071000400,"Census Tract 4, Orange County, New York",true,5,2419,1916,53205,52,0,0,0,10,20,4,15,14,33,35,18
+36071000501,"Census Tract 5.01, Orange County, New York",true,4,2132,1083,53896,7,0,2,0,26,14,5,46,23,33,14,29
+36071000502,"Census Tract 5.02, Orange County, New York",true,4,2611,1239,62002,8,2,1,0,25,15,3,47,34,24,33,9
+36071000600,"Census Tract 6, Orange County, New York",true,5,1946,1802,40613,27,2,3,0,25,17,7,19,38,32,21,10
+36071010101,"Census Tract 101.01, Orange County, New York",false,3,3188,1552,124694,1,0,1,0,14,66,10,7,6,34,26,35
+36071010102,"Census Tract 101.02, Orange County, New York",false,2,2919,1634,127424,20,0,1,0,10,59,5,4,4,33,29,33
+36071010200,"Census Tract 102, Orange County, New York",false,3,2992,2000,117768,11,0,4,0,5,64,14,3,4,27,31,38
+36071010300,"Census Tract 103, Orange County, New York",false,3,2994,1250,115743,20,0,1,2,8,65,2,3,8,25,33,35
+36071010400,"Census Tract 104, Orange County, New York",false,3,2468,1593,91236,14,0,4,0,10,52,4,16,4,36,26,34
+36071010501,"Census Tract 105.01, Orange County, New York",false,4,3342,1524,90305,24,0,1,0,13,52,3,7,9,21,32,38
+36071010502,"Census Tract 105.02, Orange County, New York",false,3,3061,1802,106487,26,0,6,0,10,47,7,4,3,11,43,42
+36071010602,"Census Tract 106.02, Orange County, New York",false,3,2963,1164,100445,5,0,2,0,13,72,2,6,9,35,27,29
+36071010702,"Census Tract 107.02, Orange County, New York",false,3,2298,1797,78933,15,0,1,0,12,66,4,1,9,35,35,21
+36071010802,"Census Tract 108.02, Orange County, New York",false,3,3178,1979,103300,10,0,1,1,6,72,8,2,5,32,31,32
+36071012601,"Census Tract 126.01, Orange County, New York",false,3,2837,1697,106245,22,0,3,0,8,44,13,8,9,28,27,37
+36071012602,"Census Tract 126.02, Orange County, New York",false,3,2338,1308,77950,32,0,6,0,19,26,12,5,11,26,39,24
+36071012700,"Census Tract 127, Orange County, New York",false,3,2533,1523,95244,7,1,2,1,25,50,4,11,7,44,25,23
+36071012800,"Census Tract 128, Orange County, New York",false,3,2849,1890,94150,16,1,4,0,11,62,2,4,7,29,32,32
+36071012900,"Census Tract 129, Orange County, New York",false,2,3076,1172,124756,3,0,2,1,5,88,0,1,1,16,32,51
+36071013000,"Census Tract 130, Orange County, New York",false,3,2785,1673,110739,4,0,5,0,8,76,4,3,6,25,21,49
+36071013100,"Census Tract 131, Orange County, New York",false,2,3101,1853,149623,1,0,1,0,8,82,3,4,10,12,24,54
+36071013201,"Census Tract 132.01, Orange County, New York",false,2,2681,1743,118883,14,0,1,0,7,70,4,4,15,18,30,37
+36071013202,"Census Tract 132.02, Orange County, New York",false,2,3050,791,140569,14,1,2,0,5,63,8,7,4,20,42,35
+36071013301,"Census Tract 133.01, Orange County, New York",false,3,2736,1507,107002,1,1,2,0,22,71,3,0,11,16,43,29
+36071013400,"Census Tract 134, Orange County, New York",false,3,2922,1099,108720,13,0,0,0,5,70,2,10,9,25,36,30
+36071013500,"Census Tract 135, Orange County, New York",false,2,2976,1927,132449,10,0,5,0,15,62,5,2,2,17,35,47
+36071013600,"Census Tract 136, Orange County, New York",false,1,1692,952,115252,6,0,5,0,6,70,10,3,0,3,18,79
+36071013700,"Census Tract 137, Orange County, New York",false,2,2194,1134,95778,25,0,8,0,7,48,8,4,2,26,28,44
+36071013800,"Census Tract 138, Orange County, New York",false,2,2551,1269,105915,10,0,6,0,7,59,12,6,3,33,25,39
+36071013900,"Census Tract 139, Orange County, New York",false,2,3103,1393,155904,5,0,6,0,18,61,3,7,0,8,38,53
+36071014101,"Census Tract 141.01, Orange County, New York",false,3,3102,1388,105892,10,0,4,0,12,49,6,19,9,25,25,41
+36071014102,"Census Tract 141.02, Orange County, New York",false,2,2458,1914,110129,12,0,15,0,7,39,8,19,10,26,24,39
+36071014202,"Census Tract 142.02, Orange County, New York",false,2,3311,1972,155349,10,0,3,0,6,71,5,5,1,19,25,55
+36071014900,"Census Tract 149, Orange County, New York",false,2,3109,1414,173930,6,0,1,0,5,82,2,4,3,15,26,56
+36071015003,"Census Tract 150.03, Orange County, New York",true,4,2482,1352,55328,0,0,0,0,2,95,0,3,25,29,40,6
+36071015005,"Census Tract 150.05, Orange County, New York",true,4,2299,886,56225,0,0,0,0,4,95,0,0,27,23,40,9
+36071015007,"Census Tract 150.07, Orange County, New York",true,5,2495,770,48422,0,0,0,0,0,100,0,0,26,27,44,3
+36071015008,"Census Tract 150.08, Orange County, New York",true,5,2556,665,46907,0,0,0,0,3,97,0,0,28,31,33,8
+36071015009,"Census Tract 150.09, Orange County, New York",true,4,2538,322,59658,0,0,0,0,1,92,7,0,34,39,22,6
+36071015010,"Census Tract 150.10, Orange County, New York",false,5,2624,731,54008,0,0,0,0,0,100,0,0,29,37,21,13
+36071015201,"Census Tract 152.01, Orange County, New York",false,2,3134,1371,148826,7,0,0,0,7,76,6,5,11,13,25,51
+36071015202,"Census Tract 152.02, Orange County, New York",false,3,3686,1690,147230,12,0,10,0,15,50,3,10,10,18,29,44
+36071015203,"Census Tract 152.03, Orange County, New York",false,2,2657,469,119446,24,0,1,0,1,52,9,13,0,20,28,52
+36079010100,"Census Tract 101, Putnam County, New York",false,2,2595,1340,137850,5,0,1,0,9,69,1,16,5,33,34,27
+36079010201,"Census Tract 102.01, Putnam County, New York",false,2,2765,1649,154044,4,0,2,0,4,84,1,6,2,17,13,69
+36079010202,"Census Tract 102.02, Putnam County, New York",false,2,2521,913,112245,20,1,0,0,12,64,2,0,9,20,32,39
+36079010300,"Census Tract 103, Putnam County, New York",false,2,2544,1664,112654,8,0,3,0,7,58,7,17,7,26,30,37
+36079010400,"Census Tract 104, Putnam County, New York",false,2,2475,1242,112707,1,0,8,0,12,79,0,1,7,29,20,43
+36079010500,"Census Tract 105, Putnam County, New York",false,2,2617,1846,156161,4,2,0,0,8,75,3,7,3,23,24,50
+36079010600,"Census Tract 106, Putnam County, New York",false,2,3094,1341,172810,5,0,1,0,5,87,1,1,5,17,19,59
+36079010700,"Census Tract 107, Putnam County, New York",false,2,2680,1115,143072,0,0,3,0,5,86,4,1,3,14,15,68
+36079010800,"Census Tract 108, Putnam County, New York",false,2,2923,1150,145296,2,0,2,0,6,81,7,2,1,19,24,56
+36079010901,"Census Tract 109.01, Putnam County, New York",false,2,2922,1160,135827,12,0,7,0,12,65,3,0,1,16,21,62
+36079010902,"Census Tract 109.02, Putnam County, New York",false,2,2939,1397,141692,0,1,2,0,4,82,8,2,4,29,30,37
+36079011000,"Census Tract 110, Putnam County, New York",false,2,2911,1387,183601,3,0,1,0,3,87,2,4,9,19,24,48
+36079011100,"Census Tract 111, Putnam County, New York",false,2,2741,1773,132755,1,0,2,0,5,83,4,7,2,20,33,44
+36079011201,"Census Tract 112.01, Putnam County, New York",false,2,2446,970,136380,0,0,0,0,3,94,1,2,6,13,25,56
+36079011202,"Census Tract 112.02, Putnam County, New York",false,2,2419,1495,128041,1,0,2,0,14,75,2,6,12,22,30,36
+36079011300,"Census Tract 113, Putnam County, New York",false,2,2622,1485,139656,0,0,1,0,1,95,2,1,5,20,20,55
+36079011400,"Census Tract 114, Putnam County, New York",false,2,2689,1855,161233,1,0,1,0,4,91,1,3,3,26,31,40
+36079011501,"Census Tract 115.01, Putnam County, New York",false,2,1792,1606,102614,3,0,0,0,8,85,1,3,6,31,31,32
+36079011502,"Census Tract 115.02, Putnam County, New York",false,2,2761,1021,142203,3,0,0,0,1,87,5,3,5,19,23,54
+36079011600,"Census Tract 116, Putnam County, New York",false,2,2839,1990,142385,4,0,1,0,4,82,3,5,10,16,32,41
+36079011700,"Census Tract 117, Putnam County, New York",false,2,2868,1731,157077,3,0,2,0,12,77,1,6,4,14,32,50
+36079011801,"Census Tract 118.01, Putnam County, New York",false,2,1998,1232,104330,4,0,2,0,19,38,3,34,20,27,27,26
+36079011802,"Census Tract 118.02, Putnam County, New York",false,2,2575,1769,115373,0,0,8,0,12,66,8,7,12,20,31,38
+36079011900,"Census Tract 119, Putnam County, New York",false,2,2413,1784,136836,2,0,2,0,7,76,3,9,7,23,20,50
+36087010101,"Census Tract 101.01, Rockland County, New York",false,2,3833,1963,178704,10,1,3,0,5,69,6,6,4,30,28,38
+36087010102,"Census Tract 101.02, Rockland County, New York",false,3,3622,1718,137513,11,0,2,0,14,63,5,4,7,26,31,36
+36087010200,"Census Tract 102, Rockland County, New York",false,3,3470,1608,119078,12,0,1,0,5,70,3,8,9,24,37,31
+36087010501,"Census Tract 105.01, Rockland County, New York",false,2,3918,1442,165037,16,0,12,0,10,57,2,3,6,16,23,56
+36087010503,"Census Tract 105.03, Rockland County, New York",false,3,4139,875,158862,18,0,22,0,4,50,1,4,12,7,17,64
+36087010504,"Census Tract 105.04, Rockland County, New York",false,3,2675,2867,103723,21,0,3,0,8,44,10,14,9,29,28,34
+36087010601,"Census Tract 106.01, Rockland County, New York",false,3,3471,1218,123891,14,0,2,0,7,32,6,39,10,29,30,31
+36087010602,"Census Tract 106.02, Rockland County, New York",true,4,2589,2233,72012,14,1,8,0,26,24,10,17,14,21,45,19
+36087010701,"Census Tract 107.01, Rockland County, New York",true,3,3039,1328,89879,8,0,7,0,15,24,20,26,16,20,32,32
+36087010702,"Census Tract 107.02, Rockland County, New York",true,3,2413,1127,82207,10,0,0,0,22,8,13,47,41,18,27,14
+36087010703,"Census Tract 107.03, Rockland County, New York",true,3,2527,1153,99504,5,2,1,0,19,26,3,44,24,20,18,37
+36087010801,"Census Tract 108.01, Rockland County, New York",false,2,3963,1379,185721,10,0,11,0,4,63,5,5,1,8,20,71
+36087010802,"Census Tract 108.02, Rockland County, New York",false,2,4048,1806,192942,0,0,11,0,5,70,2,11,4,13,20,64
+36087010803,"Census Tract 108.03, Rockland County, New York",false,2,3518,1744,142983,7,0,11,0,2,70,2,8,4,15,22,59
+36087010804,"Census Tract 108.04, Rockland County, New York",false,2,3719,1340,150160,5,0,8,0,6,71,10,1,2,18,22,58
+36087010901,"Census Tract 109.01, Rockland County, New York",false,2,3901,1558,165062,1,0,5,0,9,74,4,6,3,15,23,59
+36087010902,"Census Tract 109.02, Rockland County, New York",false,2,3435,1362,145745,7,1,14,0,6,58,4,10,2,22,33,43
+36087011000,"Census Tract 110, Rockland County, New York",false,2,3583,783,187405,11,0,1,0,5,73,5,4,2,8,17,73
+36087011101,"Census Tract 111.01, Rockland County, New York",false,3,3648,2015,145638,8,0,11,0,6,61,12,2,1,15,34,49
+36087011102,"Census Tract 111.02, Rockland County, New York",false,2,2496,2360,140072,22,0,8,0,17,48,3,1,7,10,26,57
+36087011200,"Census Tract 112, Rockland County, New York",false,2,3503,2321,182340,2,1,10,0,6,67,6,9,3,11,17,70
+36087011302,"Census Tract 113.02, Rockland County, New York",true,2,3338,2140,161764,13,0,11,0,4,61,1,9,3,28,18,51
+36087011303,"Census Tract 113.03, Rockland County, New York",true,2,2900,2219,130878,3,0,14,0,5,70,3,4,7,28,24,42
+36087011304,"Census Tract 113.04, Rockland County, New York",true,4,2340,1424,63090,45,0,0,0,16,20,5,14,29,30,10,31
+36087011305,"Census Tract 113.05, Rockland County, New York",true,2,2577,1472,103240,28,0,17,0,13,34,6,3,18,20,23,39
+36087011401,"Census Tract 114.01, Rockland County, New York",false,2,3847,1304,179366,15,0,10,0,7,62,3,2,2,19,20,60
+36087011403,"Census Tract 114.03, Rockland County, New York",false,2,3659,1953,165519,0,0,10,0,6,79,2,2,8,9,15,68
+36087011404,"Census Tract 114.04, Rockland County, New York",false,2,3026,1598,121917,17,0,12,0,6,61,2,1,5,9,24,62
+36087011405,"Census Tract 114.05, Rockland County, New York",false,2,3704,1198,150742,24,0,21,0,8,39,4,4,2,15,27,56
+36087011505,"Census Tract 115.05, Rockland County, New York",false,6,3037,707,49530,2,0,2,0,1,94,1,0,20,36,37,7
+36087011506,"Census Tract 115.06, Rockland County, New York",false,6,2959,1000,48528,2,0,0,0,1,97,0,0,21,43,32,4
+36087011507,"Census Tract 115.07, Rockland County, New York",false,2,4128,818,185522,3,1,3,0,1,91,0,0,7,7,14,72
+36087011508,"Census Tract 115.08, Rockland County, New York",false,3,3911,1111,155103,2,0,1,0,1,96,1,0,2,16,33,49
+36087011509,"Census Tract 115.09, Rockland County, New York",false,3,3879,827,150237,23,0,10,0,14,41,10,2,0,28,27,45
+36087011510,"Census Tract 115.10, Rockland County, New York",false,3,3771,1083,137914,18,0,0,0,11,59,2,10,6,9,44,42
+36087011511,"Census Tract 115.11, Rockland County, New York",false,3,3805,755,115776,32,0,5,0,30,17,14,2,16,10,42,31
+36087011512,"Census Tract 115.12, Rockland County, New York",false,2,3989,943,182045,44,0,10,0,10,7,3,25,14,13,42,31
+36087011601,"Census Tract 116.01, Rockland County, New York",false,2,4021,1025,190816,1,0,7,0,1,87,2,2,6,11,8,76
+36087011602,"Census Tract 116.02, Rockland County, New York",false,2,2994,1815,137963,5,0,3,0,1,85,1,4,12,18,20,50
+36087011603,"Census Tract 116.03, Rockland County, New York",false,2,3552,1758,160333,12,0,4,0,5,72,4,4,6,16,31,46
+36087011700,"Census Tract 117, Rockland County, New York",false,3,3281,1256,125139,4,0,4,0,8,79,4,2,3,29,24,43
+36087011800,"Census Tract 118, Rockland County, New York",false,3,3387,297,101843,18,2,7,0,5,31,8,29,16,33,31,20
+36087011901,"Census Tract 119.01, Rockland County, New York",false,2,3159,1214,130347,12,0,7,0,12,54,7,8,8,28,20,45
+36087011902,"Census Tract 119.02, Rockland County, New York",false,2,2470,1503,98911,19,1,6,0,12,52,1,8,5,14,20,61
+36087012000,"Census Tract 120, Rockland County, New York",false,2,2278,1875,99044,1,0,9,0,3,82,3,1,3,19,34,44
+36087012107,"Census Tract 121.07, Rockland County, New York",true,5,3071,799,57581,0,0,0,0,0,100,0,0,28,21,45,7
+36087012108,"Census Tract 121.08, Rockland County, New York",true,5,2690,1204,49648,0,0,0,0,0,98,1,0,17,26,52,4
+36087012109,"Census Tract 121.09, Rockland County, New York",true,8,3362,491,42549,5,0,0,0,1,94,0,0,30,25,38,7
+36087012110,"Census Tract 121.10, Rockland County, New York",false,6,3186,526,51078,2,0,0,0,0,96,0,2,18,33,40,9
+36087012111,"Census Tract 121.11, Rockland County, New York",false,4,3623,562,85658,0,0,0,0,1,99,1,0,14,14,51,21
+36087012112,"Census Tract 121.12, Rockland County, New York",false,3,3801,584,123718,3,0,0,0,0,96,0,1,16,23,22,39
+36087012113,"Census Tract 121.13, Rockland County, New York",false,4,3655,632,98756,0,0,0,0,0,100,0,0,18,26,45,11
+36087012114,"Census Tract 121.14, Rockland County, New York",false,5,4164,501,77699,0,0,0,0,0,93,0,7,14,39,46,2
+36087012115,"Census Tract 121.15, Rockland County, New York",false,3,3974,325,132008,40,0,5,0,6,34,0,15,22,17,36,25
+36087012116,"Census Tract 121.16, Rockland County, New York",false,5,3396,545,63192,0,0,1,0,0,97,1,1,14,39,26,21
+36087012203,"Census Tract 122.03, Rockland County, New York",true,3,2322,954,85357,4,0,0,0,0,91,5,0,20,15,29,37
+36087012204,"Census Tract 122.04, Rockland County, New York",true,5,3613,670,73805,2,0,0,0,1,95,1,2,18,24,46,12
+36087012205,"Census Tract 122.05, Rockland County, New York",true,3,1747,855,50525,45,0,9,0,11,5,4,25,21,31,43,5
+36087012206,"Census Tract 122.06, Rockland County, New York",true,2,1469,1174,61247,71,0,3,0,5,5,0,15,12,36,37,15
+36087012301,"Census Tract 123.01, Rockland County, New York",true,4,3337,671,85851,22,0,0,0,1,63,0,13,33,33,29,5
+36087012302,"Census Tract 123.02, Rockland County, New York",true,4,2214,845,51451,31,0,0,0,15,12,0,42,29,26,34,10
+36087012401,"Census Tract 124.01, Rockland County, New York",true,2,1458,2417,62189,66,0,4,0,3,26,0,0,7,27,33,32
+36087012403,"Census Tract 124.03, Rockland County, New York",true,5,3102,613,68654,10,0,0,0,20,12,1,56,54,22,19,5
+36087012404,"Census Tract 124.04, Rockland County, New York",true,3,2497,616,88795,41,0,4,0,21,8,11,15,20,15,33,32
+36087012503,"Census Tract 125.03, Rockland County, New York",false,3,3117,642,112153,17,0,0,0,0,77,2,4,3,12,27,58
+36087012504,"Census Tract 125.04, Rockland County, New York",false,2,3761,865,156248,14,0,5,0,4,70,6,1,6,16,23,55
+36087012505,"Census Tract 125.05, Rockland County, New York",false,3,3839,600,118480,1,0,2,0,1,86,0,10,7,15,45,33
+36087012506,"Census Tract 125.06, Rockland County, New York",false,3,3773,754,122811,2,0,4,0,12,70,2,9,4,18,47,31
+36087012600,"Census Tract 126, Rockland County, New York",false,2,3239,1867,161029,1,0,10,0,4,72,1,12,14,2,36,48
+36087012700,"Census Tract 127, Rockland County, New York",false,2,3063,1758,149915,3,2,5,0,4,73,1,13,7,22,25,46
+36087012800,"Census Tract 128, Rockland County, New York",false,2,3580,2566,185724,3,0,6,0,1,88,1,1,6,19,22,53
+36087013001,"Census Tract 130.01, Rockland County, New York",false,2,3664,753,160573,8,1,9,0,4,71,6,2,3,17,20,60
+36087013002,"Census Tract 130.02, Rockland County, New York",false,2,3645,1643,179359,2,0,11,0,4,76,4,3,3,21,18,57
+36087013003,"Census Tract 130.03, Rockland County, New York",false,2,3432,1120,184771,5,0,8,0,5,76,4,2,8,11,17,64
+36087013101,"Census Tract 131.01, Rockland County, New York",false,2,2618,1275,148075,14,0,4,0,26,47,2,7,9,14,22,54
+36087013102,"Census Tract 131.02, Rockland County, New York",false,1,2020,1554,148465,10,0,5,0,4,77,1,4,2,5,21,72
+36087013200,"Census Tract 132, Rockland County, New York",false,2,2667,1257,151440,20,0,9,0,5,56,6,4,1,12,26,61
+36087013300,"Census Tract 133, Rockland County, New York",false,2,2576,1224,150455,5,0,9,0,12,72,3,0,4,7,18,71
+36087013401,"Census Tract 134.01, Rockland County, New York",false,2,3587,1440,154475,2,0,9,0,5,78,3,3,6,14,18,62
+36087013402,"Census Tract 134.02, Rockland County, New York",false,2,3550,1370,171975,0,1,7,0,5,74,2,11,4,18,15,63
+36111952600,"Census Tract 9526, Ulster County, New York",false,3,2701,2389,103499,0,0,0,0,3,91,3,3,4,27,35,35
+36111952901,"Census Tract 9529.01, Ulster County, New York",false,3,2756,1090,110229,4,0,5,0,3,83,5,0,10,22,21,46
+36111953000,"Census Tract 9530, Ulster County, New York",false,3,2680,770,93295,0,0,4,0,2,90,1,1,11,19,27,44
+36111953300,"Census Tract 9533, Ulster County, New York",false,2,3031,1595,134451,1,0,0,0,3,90,3,3,0,14,24,61
+36111953400,"Census Tract 9534, Ulster County, New York",false,3,2253,2113,84631,7,0,3,0,4,80,5,1,0,5,35,60
+36111953500,"Census Tract 9535, Ulster County, New York",false,3,2238,1026,70689,8,0,7,0,7,69,5,4,3,12,35,51
+36111953600,"Census Tract 9536, Ulster County, New York",false,3,2460,2184,90493,7,0,2,0,8,75,5,4,6,24,25,45
+36111953700,"Census Tract 9537, Ulster County, New York",false,3,2788,1925,101223,6,0,1,0,8,78,3,4,3,21,39,37
+36111953800,"Census Tract 9538, Ulster County, New York",false,3,2766,1658,108968,3,0,0,0,8,87,1,1,6,28,39,27
+36111953900,"Census Tract 9539, Ulster County, New York",false,2,2872,1854,138004,4,0,2,0,4,85,4,0,8,29,28,35
+36111954000,"Census Tract 9540, Ulster County, New York",false,3,2694,2004,79649,5,0,2,0,9,74,7,3,6,30,33,31
+36111954100,"Census Tract 9541, Ulster County, New York",false,3,2861,2048,96850,6,0,0,0,15,69,5,5,10,38,26,26
+36111954200,"Census Tract 9542, Ulster County, New York",false,3,2852,2187,104394,0,0,0,0,1,84,13,1,6,20,31,44
+36111954401,"Census Tract 9544.01, Ulster County, New York",true,2,2802,884,156619,8,0,3,0,9,65,10,5,1,24,35,40
+36111955400,"Census Tract 9554, Ulster County, New York",false,3,2672,1239,98045,16,1,2,0,3,65,8,4,10,22,32,37
+36119007700,"Census Tract 77, Westchester County, New York",false,2,4329,1997,254042,4,0,12,0,7,67,5,4,1,10,12,77
+36119007800,"Census Tract 78, Westchester County, New York",true,3,3222,1360,95658,7,1,0,0,32,23,3,33,26,35,18,22
+36119007901,"Census Tract 79.01, Westchester County, New York",true,3,3030,856,108100,1,0,2,0,14,26,4,52,22,33,21,24
+36119007902,"Census Tract 79.02, Westchester County, New York",true,3,2515,1452,98550,5,1,1,0,20,29,17,27,15,27,23,35
+36119008000,"Census Tract 80, Westchester County, New York",true,3,2652,1473,85685,6,1,2,0,33,14,8,36,42,17,15,27
+36119008100,"Census Tract 81, Westchester County, New York",true,3,3871,1668,140920,5,0,1,0,27,26,12,29,25,22,23,30
+36119008200,"Census Tract 82, Westchester County, New York",false,3,5152,2411,200210,7,0,3,0,19,50,2,19,9,21,20,50
+36119008301,"Census Tract 83.01, Westchester County, New York",false,3,5121,946,167170,3,1,5,0,22,48,4,18,6,15,23,56
+36119008302,"Census Tract 83.02, Westchester County, New York",false,2,5596,2519,276687,0,0,5,0,3,89,1,0,2,9,9,80
+36119008500,"Census Tract 85, Westchester County, New York",false,2,6474,1069,362954,0,0,4,0,2,89,3,2,1,6,4,90
+36119008602,"Census Tract 86.02, Westchester County, New York",false,2,7197,1235,354074,6,0,9,0,3,73,6,2,3,1,15,80
+36119008700,"Census Tract 87, Westchester County, New York",false,3,4599,1857,175734,7,0,2,0,11,69,1,11,17,21,21,42
+36119008801,"Census Tract 88.01, Westchester County, New York",false,1,1287,793,145798,15,0,21,0,2,36,1,25,3,11,10,76
+36119008802,"Census Tract 88.02, Westchester County, New York",false,1,1413,1398,119870,17,0,13,0,10,53,0,6,10,14,23,53
+36119008901,"Census Tract 89.01, Westchester County, New York",false,2,2629,2747,154338,11,1,9,0,11,49,1,17,7,20,23,49
+36119008902,"Census Tract 89.02, Westchester County, New York",false,2,3568,1390,155681,20,1,3,0,16,37,3,19,9,26,27,37
+36119009000,"Census Tract 90, Westchester County, New York",false,2,2532,1551,159920,15,0,12,0,19,29,4,22,11,18,14,57
+36119009100,"Census Tract 91, Westchester County, New York",false,3,3913,2046,126123,16,0,5,0,11,23,12,33,14,28,21,37
+36119009201,"Census Tract 92.01, Westchester County, New York",true,2,3589,1268,187873,13,0,7,0,6,38,0,35,6,18,23,53
+36119009202,"Census Tract 92.02, Westchester County, New York",true,4,3549,1066,98799,9,0,4,0,8,25,4,50,16,23,25,36
+36119009300,"Census Tract 93, Westchester County, New York",true,1,1286,1556,139248,15,0,20,0,6,28,1,29,22,10,24,45
+36119009400,"Census Tract 94, Westchester County, New York",true,2,2080,1573,113132,11,0,9,0,23,29,2,26,12,26,16,46
+36119009500,"Census Tract 95, Westchester County, New York",false,2,2258,2382,144580,9,0,6,0,12,47,10,16,12,18,18,51
+36119009600,"Census Tract 96, Westchester County, New York",false,2,5358,1669,234974,8,0,5,0,2,78,3,3,4,9,13,74
+36119009701,"Census Tract 97.01, Westchester County, New York",false,2,5397,1156,222451,13,0,7,0,4,70,2,4,0,8,22,71
+36119009702,"Census Tract 97.02, Westchester County, New York",false,3,4251,1188,162323,9,0,2,0,14,74,1,0,4,18,7,70
+36119009703,"Census Tract 97.03, Westchester County, New York",false,2,5718,1439,254486,7,0,3,0,4,84,2,0,2,5,8,85
+36119009800,"Census Tract 98, Westchester County, New York",false,2,6038,1432,285947,0,0,19,0,6,68,2,4,3,0,3,94
+36119009900,"Census Tract 99, Westchester County, New York",false,2,6386,820,342164,0,0,12,0,2,72,13,0,0,2,5,94
+36119010000,"Census Tract 100, Westchester County, New York",false,2,6051,1739,362035,0,0,15,0,3,77,3,1,2,1,3,94
+36119010200,"Census Tract 102, Westchester County, New York",false,2,5886,1572,277044,1,0,4,0,4,85,4,3,0,12,10,78
+36119010300,"Census Tract 103, Westchester County, New York",false,2,3336,1410,151973,1,0,4,0,8,84,1,2,2,17,16,65
+36119010400,"Census Tract 104, Westchester County, New York",false,2,4325,1347,216244,6,0,4,0,17,64,4,6,5,11,18,66
+36119010500,"Census Tract 105, Westchester County, New York",false,2,4711,2295,205882,4,0,7,0,4,72,7,6,1,7,36,56
+36119010600,"Census Tract 106, Westchester County, New York",false,2,5142,1623,271192,4,0,13,0,2,68,11,2,2,8,12,77
+36119010701,"Census Tract 107.01, Westchester County, New York",false,2,5692,1880,282805,2,0,24,0,3,66,4,0,1,5,5,89
+36119010702,"Census Tract 107.02, Westchester County, New York",false,2,3766,2223,190094,1,0,25,0,5,68,1,1,7,14,11,68
+36119010801,"Census Tract 108.01, Westchester County, New York",false,3,5303,1298,202090,4,0,12,0,3,72,5,5,4,15,24,58
+36119010803,"Census Tract 108.03, Westchester County, New York",false,2,2841,1939,146258,18,1,5,0,5,61,4,6,5,11,20,64
+36119010804,"Census Tract 108.04, Westchester County, New York",false,2,3932,1018,197988,12,0,10,0,5,59,5,9,2,16,13,69
+36119010901,"Census Tract 109.01, Westchester County, New York",false,2,4262,699,171140,34,0,6,0,8,46,3,2,6,16,12,67
+36119010902,"Census Tract 109.02, Westchester County, New York",false,2,4633,2191,202379,27,1,15,0,12,30,12,4,10,7,21,62
+36119010903,"Census Tract 109.03, Westchester County, New York",false,3,4268,1719,159067,48,0,3,0,11,18,2,17,9,20,32,39
+36119011000,"Census Tract 110, Westchester County, New York",false,3,4713,868,170093,48,0,6,0,2,25,7,11,10,18,40,33
+36119011101,"Census Tract 111.01, Westchester County, New York",false,2,3817,2471,196384,15,1,15,0,5,55,5,4,3,9,20,69
+36119011102,"Census Tract 111.02, Westchester County, New York",false,2,5129,977,229519,11,1,13,0,2,63,9,1,1,12,11,76
+36119011200,"Census Tract 112, Westchester County, New York",false,3,5176,1186,186386,27,0,6,0,19,19,2,27,14,26,23,37
+36119011300,"Census Tract 113, Westchester County, New York",false,2,4737,2141,227467,2,0,7,0,3,79,4,4,2,6,18,75
+36119011401,"Census Tract 114.01, Westchester County, New York",false,2,4325,1796,196807,3,0,11,0,2,79,3,0,2,18,11,69
+36119011402,"Census Tract 114.02, Westchester County, New York",false,2,5627,630,256882,12,0,22,0,5,59,3,0,0,14,12,74
+36119011500,"Census Tract 115, Westchester County, New York",false,2,3382,2256,138836,3,0,3,0,16,54,12,12,10,16,16,58
+36119011601,"Census Tract 116.01, Westchester County, New York",true,3,2001,1240,68122,4,0,0,0,11,16,9,60,43,20,21,16
+36119011602,"Census Tract 116.02, Westchester County, New York",true,3,2972,1388,86101,8,0,2,0,15,30,7,37,19,27,22,32
+36119011700,"Census Tract 117, Westchester County, New York",false,2,5099,1285,228872,0,0,2,0,5,75,6,11,17,9,9,65
+36119011800,"Census Tract 118, Westchester County, New York",false,2,4915,1646,254026,7,0,6,0,6,76,5,1,2,10,13,74
+36119011902,"Census Tract 119.02, Westchester County, New York",false,3,4362,1562,168798,6,0,8,0,8,72,4,1,2,29,22,48
+36119012000,"Census Tract 120, Westchester County, New York",false,3,4431,1635,167745,4,0,4,0,4,83,1,4,11,19,25,46
+36119012101,"Census Tract 121.01, Westchester County, New York",false,2,4834,1789,231308,2,0,5,0,4,86,2,1,6,12,13,70
+36119012102,"Census Tract 121.02, Westchester County, New York",false,2,4436,1521,202231,3,0,5,0,8,81,0,3,4,14,20,62
+36119012201,"Census Tract 122.01, Westchester County, New York",false,2,4471,1043,244797,10,0,6,0,5,74,2,3,1,4,5,90
+36119012202,"Census Tract 122.02, Westchester County, New York",false,2,4715,1313,204826,2,0,2,0,12,70,5,9,10,9,14,67
+36119012301,"Census Tract 123.01, Westchester County, New York",false,2,4330,884,179791,7,0,6,0,23,49,3,11,6,22,20,51
+36119012303,"Census Tract 123.03, Westchester County, New York",false,2,4580,1661,295339,2,0,9,0,2,72,9,5,2,6,14,77
+36119012304,"Census Tract 123.04, Westchester County, New York",false,2,4451,1749,281637,1,0,3,0,3,90,2,0,1,1,9,89
+36119012400,"Census Tract 124, Westchester County, New York",false,1,3759,1847,279219,2,0,3,0,3,87,3,2,1,12,15,73
+36119012501,"Census Tract 125.01, Westchester County, New York",false,1,3694,1109,271049,0,0,3,0,2,84,1,10,4,7,24,66
+36119012502,"Census Tract 125.02, Westchester County, New York",false,2,3687,2059,239226,1,0,4,0,2,89,2,1,1,13,16,71
+36119012503,"Census Tract 125.03, Westchester County, New York",false,2,3607,1430,220597,0,0,3,0,2,90,3,3,1,6,19,74
+36119012600,"Census Tract 126, Westchester County, New York",false,2,3811,1498,253545,1,0,2,0,6,83,8,0,1,4,10,85
+36119012700,"Census Tract 127, Westchester County, New York",false,1,3828,1507,269119,3,0,3,0,4,80,2,8,2,3,8,87
+36119012803,"Census Tract 128.03, Westchester County, New York",false,2,3451,1059,183434,3,0,5,0,6,80,3,2,5,10,21,64
+36119012804,"Census Tract 128.04, Westchester County, New York",false,2,2911,1582,158855,2,0,13,0,23,40,5,16,21,13,11,55
+36119012900,"Census Tract 129, Westchester County, New York",false,2,2221,1799,95488,4,0,6,0,20,48,2,20,15,19,15,51
+36119013000,"Census Tract 130, Westchester County, New York",false,2,3854,2368,174095,3,0,3,0,21,59,5,9,12,15,16,57
+36119013102,"Census Tract 131.02, Westchester County, New York",false,2,4753,2399,279768,2,0,10,0,1,83,2,1,2,3,11,85
+36119013103,"Census Tract 131.03, Westchester County, New York",false,2,4132,1768,255606,2,0,10,0,3,83,3,0,1,4,7,87
+36119013104,"Census Tract 131.04, Westchester County, New York",false,2,4563,1753,298289,7,0,9,0,1,82,1,0,2,5,10,83
+36119013201,"Census Tract 132.01, Westchester County, New York",false,2,5590,1264,280744,2,0,5,0,3,79,9,2,2,2,5,91
+36119013202,"Census Tract 132.02, Westchester County, New York",false,3,4308,1286,169263,2,0,4,0,4,85,5,1,7,11,14,67
+36119013301,"Census Tract 133.01, Westchester County, New York",true,3,3459,1373,116393,15,1,3,0,33,19,7,23,25,14,30,31
+36119013304,"Census Tract 133.04, Westchester County, New York",true,3,3591,1735,128230,11,0,2,0,12,25,6,43,14,25,17,45
+36119013401,"Census Tract 134.01, Westchester County, New York",false,2,2284,1268,96978,18,0,14,0,6,39,4,19,14,9,40,37
+36119013402,"Census Tract 134.02, Westchester County, New York",false,2,3528,1603,143580,4,0,10,0,11,47,11,17,9,20,22,49
+36119013500,"Census Tract 135, Westchester County, New York",false,3,3989,1405,123917,3,0,4,0,20,62,4,7,6,24,33,37
+36119013600,"Census Tract 136, Westchester County, New York",true,3,3605,1757,126017,10,0,5,0,11,46,9,19,13,12,29,46
+36119013700,"Census Tract 137, Westchester County, New York",false,2,4446,2155,186692,7,0,6,0,8,70,3,5,4,12,18,66
+36119013800,"Census Tract 138, Westchester County, New York",false,2,4375,1174,212104,4,0,4,0,5,85,2,0,1,8,21,70
+36119013900,"Census Tract 139, Westchester County, New York",false,2,4234,1767,181230,3,0,3,0,8,74,3,9,6,15,19,60
+36119014000,"Census Tract 140, Westchester County, New York",false,3,4399,752,163304,9,0,3,0,3,67,8,10,8,18,38,36
+36119014100,"Census Tract 141, Westchester County, New York",false,4,3287,2919,91292,20,0,2,0,13,34,8,23,25,23,23,29
+36119014200,"Census Tract 142, Westchester County, New York",false,4,3568,1283,96093,18,1,1,0,14,24,9,34,19,15,40,26
+36119014300,"Census Tract 143, Westchester County, New York",true,3,2611,1363,86560,31,0,0,0,6,8,20,33,32,33,14,21
+36119014400,"Census Tract 144, Westchester County, New York",true,3,3384,2204,123431,28,0,1,0,9,24,4,33,19,16,22,43
+36119014500,"Census Tract 145, Westchester County, New York",false,3,3765,1910,131097,16,0,7,0,8,58,8,5,5,25,23,46
+36119014604,"Census Tract 146.04, Westchester County, New York",false,3,3548,1553,138859,3,0,0,0,6,77,9,5,4,20,30,45
+36119014605,"Census Tract 146.05, Westchester County, New York",false,2,2359,1520,106464,14,0,7,0,8,58,4,9,8,30,26,36
+36119014606,"Census Tract 146.06, Westchester County, New York",false,2,4604,1758,262266,2,0,4,0,5,86,1,2,2,9,16,73
+36119014607,"Census Tract 146.07, Westchester County, New York",false,2,4510,1382,206785,12,0,4,0,8,63,7,6,2,16,14,69
+36119014701,"Census Tract 147.01, Westchester County, New York",false,3,3828,1754,144944,6,0,2,0,7,60,6,19,10,31,25,33
+36119014703,"Census Tract 147.03, Westchester County, New York",false,2,3394,1989,161365,15,0,0,0,7,62,6,9,2,16,28,54
+36119014704,"Census Tract 147.04, Westchester County, New York",false,3,3639,776,128794,9,0,1,0,7,59,9,15,10,22,24,45
+36119014805,"Census Tract 148.05, Westchester County, New York",false,2,4197,1453,253039,12,0,5,0,6,70,5,2,5,11,29,54
+36119014806,"Census Tract 148.06, Westchester County, New York",false,2,3599,2234,211889,6,0,2,0,11,75,4,1,3,8,26,62
+36119014808,"Census Tract 148.08, Westchester County, New York",false,2,3637,1113,211415,1,0,7,0,4,88,0,0,4,17,12,67
+36119014809,"Census Tract 148.09, Westchester County, New York",false,2,3485,2343,181086,4,0,7,0,7,64,3,15,4,19,26,50
+36119014810,"Census Tract 148.10, Westchester County, New York",false,2,2655,1122,110341,1,0,0,0,9,88,0,1,11,29,20,40
+36119014811,"Census Tract 148.11, Westchester County, New York",false,2,4156,1790,220010,5,0,8,0,4,79,2,2,2,12,22,64
+36119014812,"Census Tract 148.12, Westchester County, New York",false,2,3058,1704,169258,2,0,3,0,13,72,1,8,6,21,20,53
+36119014813,"Census Tract 148.13, Westchester County, New York",false,2,3453,1514,178936,12,0,6,0,9,61,1,11,4,13,37,46
+36119014901,"Census Tract 149.01, Westchester County, New York",false,1,3801,2075,269390,1,1,5,0,3,77,2,11,2,15,17,66
+36119014903,"Census Tract 149.03, Westchester County, New York",false,2,3092,2154,145623,1,0,1,0,0,97,0,1,1,8,21,70
+36119014907,"Census Tract 149.07, Westchester County, New York",false,2,3842,1448,218859,3,0,4,0,6,76,10,1,2,26,26,46
+36119014908,"Census Tract 149.08, Westchester County, New York",false,1,3435,1372,272296,5,0,1,0,6,87,1,2,2,14,15,68
+36119014909,"Census Tract 149.09, Westchester County, New York",false,1,2091,1222,141350,1,0,0,0,8,91,0,0,1,9,27,62
+36119015000,"Census Tract 150, Westchester County, New York",false,2,3668,1771,231147,4,2,6,0,5,76,7,1,0,9,15,76
+36119981000,"Census Tract 9810, Westchester County, New York",true,5,1274,332,27660,33,1,14,0,6,27,5,13,0,4,6,90
+36119982000,"Census Tract 9820, Westchester County, New York",false,,,,,,,,,,,,,,,,
+36119983000,"Census Tract 9830, Westchester County, New York",false,,,,,,,,,,,,,,,,
+36119984000,"Census Tract 9840, Westchester County, New York",true,4,2277,161,59463,38,0,0,0,0,58,1,3,6,11,24,59
+36119985000,"Census Tract 9850, Westchester County, New York",false,,,,,,,,,,,,,,,,
