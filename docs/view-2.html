@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Groundwork Bridgeport Demo - Explorer 2</title>
+
+    <script 
+      src="https://unpkg.com/@open-spatial-lab/full-bundle"
+      async
+      type="module"
+    ></script>
+  </head>
+  <body>
+    <main>
+      <sp-theme>
+        <osl-flex-box breakpoint="md" direction="row">
+          <div style="flex-basis: 19%; position: relative">
+            <h1>Bridgeport Tree Explorer</h1>
+            <h2>Groundwork Bridgeport</h2>
+            <br />
+            <div style="max-height: 60vh; overflow-y: auto">
+              <osl-flex-box breakpoint="sm">
+                <osl-stat
+                  statSize="1rem"
+                  title="Most Common Species"
+                  property="most common species"
+                  data="https://d148axxp71p64w.cloudfront.net/data-query/6556320e7c58d9000894828e"
+                >
+                </osl-stat>
+                <osl-stat
+                  statSize="1rem"
+                  title="Most Common Species Percent"
+                  subtitle="%"
+                  property="species dominance"
+                  data="https://d148axxp71p64w.cloudfront.net/data-query/6556378ed2d81200086f7696"
+                >
+                </osl-stat>
+                <osl-stat
+                  statSize="1rem"
+                  title="Species Diversity"
+                  subtitle="Simpson's Index"
+                  property="species diversity"
+                  format="nice"
+                  data="https://d148axxp71p64w.cloudfront.net/data-query/655638a2d2d81200086f7697"
+                >
+                </osl-stat>
+                <osl-stat
+                  statSize="1rem"
+                  title="Most Common Genus"
+                  property="most common genus"
+                  data="https://d148axxp71p64w.cloudfront.net/data-query/6556320e7c58d9000894828e"
+                >
+                </osl-stat>
+
+                <osl-stat
+                  statSize="1rem"
+                  title="Most Common Genus Percent"
+                  subtitle="%"
+                  property="percent"
+                  data="https://d148axxp71p64w.cloudfront.net/data-query/655636c8d2d81200086f7694"
+                >
+                </osl-stat>
+                <osl-stat
+                  statSize="1rem"
+                  subtitle="Simpson's Index"
+                  title="Genus Diversity"
+                  property="diversity"
+                  format="nice"
+                  data="https://d148axxp71p64w.cloudfront.net/data-query/65563658d2d81200086f7693"
+                >
+                </osl-stat>
+              </osl-flex-box>
+            </div>
+          </div>
+          <div style="flex-basis: 80%; position: relative; height: 90vh">
+            <osl-glmap
+              mapStyle="https://api.maptiler.com/maps/ea51b296-e8ba-4cf7-a8a7-12d33082fb31/style.json?key=GyJQwucrJIPRRzPw7mGT"
+              legendPosition="bottom-left"
+              showNavigation="true"
+              center="[-73.18,41.18]"
+              zoom="12"
+              mapGroup="1"
+            >
+              <osl-map-layer
+                legendTitle="Tracts: Total Population"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="Total Population"
+                colorscheme="BuPu"
+                method="QNT"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Non-Hispanic White People"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="White NH"
+                colorscheme="BuPu"
+                method="EQI"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Non-Hispanic Black or African American People"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="Black or AA NH"
+                colorscheme="BuPu"
+                method="EQI"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Non-Hispanic Asian People"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="AA NH"
+                colorscheme="BuPu"
+                method="EQI"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Non-Hispanic American Indian and Alaska Native People"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="AIAN NH"
+                colorscheme="BuPu"
+                method="EQI"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Non-Hispanic Native Hawaiian and Other Pacific Islander People"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="NHPI NH"
+                colorscheme="BuPu"
+                method="EQI"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Hispanic or Latino People"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="Hispanic or Latino"
+                colorscheme="BuPu"
+                method="EQI"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Percent of Families in Poverty"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="Percent of Families in Poverty"
+                colorscheme="YlOrRd"
+                method="QNT"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Unemployment Pct"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="Unemployment Pct"
+                colorscheme="YlOrRd"
+                method="QNT"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Percent of People with Less than a High School Education at Age 25"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="Less than High School"
+                colorscheme="YlOrRd"
+                method="QNT"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Count of Trees"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="true"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="count"
+                colorscheme="YlGn"
+                method="QNT"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Estimated Canopy (sq meters)"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="Estimated Canopy"
+                colorscheme="YlGn"
+                method="QNT"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Estimated Canopy Coverage (%)"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="Estimated Coverage Pct"
+                colorscheme="YlGn"
+                method="QNT"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Tracts: Trees per 1000 people"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="nice"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="trees per 1000 people"
+                colorscheme="YlGn"
+                method="QNT"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Annual Energy Cost"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="currency:usd"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="Average Annual Energy Cost"
+                colorscheme="YlOrRd"
+                method="EQI"
+              >
+              </osl-map-layer>
+              ,
+              <osl-map-layer
+                legendTitle="Percent of Household Income Spent on Energy"
+                geoType="WKB"
+                geoColumn="geometry"
+                filled="true"
+                attribution="Groundwork Bridgeport"
+                layer="polygon"
+                type="continuous"
+                staticStroke="[0,0,0]"
+                lineWidthMaxPixels="2"
+                beforeId="Country border"
+                lineWidthMinPixels="0"
+                stroked="true"
+                labelFormat="percent"
+                visible="false"
+                data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+                datacolumn="Energy Burden"
+                colorscheme="YlOrRd"
+                method="JNK"
+              >
+              </osl-map-layer>
+            <osl-map-layer
+            legendTitle="Census Tracts: Disadvantaged Community"
+            geoType="WKB"
+            geoColumn="geometry"
+            filled="false"
+            attribution="Groundwork Bridgeport"
+            layer="polygon"
+            lineWidthMaxPixels="2"
+            lineWidthMinPixels="2"
+            beforeId="Country border"
+            lineWidthMinPixels="0"
+            stroked="true"
+            visible="true"
+            data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+            fixed="true"
+            type="categorical"
+            colorscheme="d3-cool"
+            dataColumn="Disadvantaged Status"
+            beforeId="Country border"
+          >
+          </osl-map-layer>
+          <osl-map-layer
+            beforeId="Country border"
+            legendTitle="Tree Genus"
+            visible="false"
+            geoType="WKB"
+            geoColumn="geometry"
+            filled="true"
+            attribution="Groundwork Bridgeport"
+            layer="circle"
+            type="categorical"
+            colorscheme="d3-turbo"
+            staticRadius="8"
+            datacolumn="genus"
+            staticStroke="[0,0,0, 120]"
+            lineWidthMaxPixels="1"
+            lineWidthMinPixels="0"
+            pointRadiusMinPixels="3"
+            pointRadiusMaxPixels="8"
+            stroked="true"
+            data="https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff"
+          >
+          </osl-map-layer>
+          <osl-map-layer
+            beforeId="Country border"
+            legendTitle="Tree Species"
+            visible="false"
+            geoType="WKB"
+            geoColumn="geometry"
+            filled="true"
+            attribution="Groundwork Bridgeport"
+            layer="circle"
+            type="categorical"
+            colorscheme="d3-turbo"
+            staticRadius="8"
+            datacolumn="Scientific"
+            staticStroke="[0,0,0, 120]"
+            lineWidthMaxPixels="1"
+            lineWidthMinPixels="0"
+            pointRadiusMinPixels="3"
+            pointRadiusMaxPixels="8"
+            stroked="true"
+            data="https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff"
+          >
+          </osl-map-layer>
+      
+          <osl-map-layer
+            beforeId="Country border"
+            legendTitle="Diameter at Breast Height (DBH) "
+            visible="false"
+            geoType="WKB"
+            geoColumn="geometry"
+            filled="true"
+            attribution="Groundwork Bridgeport"
+            layer="circle"
+            type="continuous"
+            colorscheme="d3-cool"
+            datacolumn="DBH"
+            staticStroke="[0,0,0, 120]"
+            lineWidthMaxPixels="1"
+            lineWidthMinPixels="0"
+            pointRadiusMinPixels="1"
+            pointRadiusMaxPixels="10"
+            stroked="true"
+            method="EQI"
+            data="https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff"
+          >
+          </osl-map-layer>
+          <osl-map-layer
+            beforeId="Country border"
+            legendTitle="Tree Locations (No Styling)"
+            visible="false"
+            geoType="WKB"
+            geoColumn="geometry"
+            filled="true"
+            attribution="Groundwork Bridgeport"
+            layer="circle"
+            type="static"
+            pointRadiusMinPixels="1"
+            pointRadiusMaxPixels="8"
+            staticRadius="6"
+            statisFill="[0,0,0]"
+            stroked="true"
+            staticStroke="[0,0,0]"
+            data="https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff"
+          >
+          </osl-map-layer>
+            </osl-glmap>
+          </div>
+        </osl-flex-box>
+      </sp-theme>
+    </main>
+  </body>
+</html>

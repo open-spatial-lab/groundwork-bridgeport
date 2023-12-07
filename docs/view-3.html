@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Groundwork Bridgeport Demo - Explorer 3</title>
+
+  <script 
+    src="https://unpkg.com/@open-spatial-lab/full-bundle"
+    async
+    type="module"
+  ></script>
+</head>
+<body>
+  <main>
+    <sp-theme>
+      <osl-flex-box breakpoint="md" direction="row">
+        <div style="flex-basis:33%;position:relative; max-height:80vw">
+          <h1>Bridgeport Tree Explorer</h1>
+          <h2>Groundwork Bridgeport</h2>
+
+          <osl-flex-box breakpoint="lg" direction="row">
+            <div>
+              <osl-select-control
+                data="["https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff","https://d148axxp71p64w.cloudfront.net/data-query/6556320e7c58d9000894828e"]"
+                option="start"
+                options="["2021-09","2021-10","2021-11","2021-12","2022-01","2022-02","2022-03","2022-04","2022-05","2022-06","2022-07","2022-08","2022-09","2022-10","2022-11","2022-12","2023-01","2023-02","2023-03","2023-04","2023-05","2023-06","2023-07","2023-08","2023-09","2023-10","2023-11","2023-12"]"
+                title="Start Date"
+                initialValue="2021-09"
+              ></osl-select-control>
+            </div>
+            <div>
+              <osl-select-control
+                data="["https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff","https://d148axxp71p64w.cloudfront.net/data-query/6556320e7c58d9000894828e"]"
+                option="end"
+                options="["2021-09","2021-10","2021-11","2021-12","2022-01","2022-02","2022-03","2022-04","2022-05","2022-06","2022-07","2022-08","2022-09","2022-10","2022-11","2022-12","2023-01","2023-02","2023-03","2023-04","2023-05","2023-06","2023-07","2023-08","2023-09","2023-10","2023-11","2023-12"]"
+                title="End Date"
+                initialValue="2023-12"
+              ></osl-select-control>
+            </div>
+          </osl-flex-box>
+          <div>
+            <osl-slider
+              data="["https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff","https://d148axxp71p64w.cloudfront.net/data-query/6556320e7c58d9000894828e"]"
+              range="true"
+              option="dbh"
+              min="0"
+              max="60"
+              step="1"
+              initialValue="[0,60]"
+              title="Diameter at Breast Height (DBH)"
+            ></osl-slider>
+          </div>
+          <br />
+          <osl-flex-box breakpoint="sm">
+            <osl-stat
+              statSize="1.5rem"
+              title="Total Trees"
+              subtitle="From selected dates"
+              property="count"
+              data="https://d148axxp71p64w.cloudfront.net/data-query/6556320e7c58d9000894828e"
+            >
+            </osl-stat>
+            <osl-stat
+              statSize="1.5rem"
+              title="Estimated Canopy in Square Feet (Basal Area)"
+              subtitle="Calculated as dbH^2 x 0.005454"
+              property="Basal Area"
+              format="nice"
+              data="https://d148axxp71p64w.cloudfront.net/data-query/6556320e7c58d9000894828e"
+            >
+            </osl-stat>
+            <osl-stat
+              statSize="1.5rem"
+              title="Most Common Species"
+              property="most common species"
+              data="https://d148axxp71p64w.cloudfront.net/data-query/6556320e7c58d9000894828e"
+            >
+            </osl-stat>
+            <osl-stat
+              statSize="1.5rem"
+              title="Most Common Genus"
+              property="most common genus"
+              data="https://d148axxp71p64w.cloudfront.net/data-query/6556320e7c58d9000894828e"
+            >
+            </osl-stat>
+          </osl-flex-box>
+        </div>
+        <div style="flex-basis:66%;position:relative; max-height:80vh">
+          <div style="position:relative;height:60vh;width:100%;">
+            <osl-glmap
+              mapStyle="https://api.maptiler.com/maps/ea51b296-e8ba-4cf7-a8a7-12d33082fb31/style.json?key=GyJQwucrJIPRRzPw7mGT"
+              legendPosition="bottom-left"
+              onInteractDataset="['https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff','https://d148axxp71p64w.cloudfront.net/data-query/6556320e7c58d9000894828e']"
+              showNavigation="true"
+              showSingleLayer="true"
+              center="[-73.18,41.18]"
+              zoom="12"
+            >
+
+            <osl-map-layer
+            legendTitle="Census Tracts: Disadvantaged Community"
+            geoType="WKB"
+            geoColumn="geometry"
+            filled="false"
+            attribution="Groundwork Bridgeport"
+            layer="polygon"
+            lineWidthMaxPixels="2"
+            lineWidthMinPixels="2"
+            beforeId="Country border"
+            lineWidthMinPixels="0"
+            stroked="true"
+            visible="true"
+            data="https://d148axxp71p64w.cloudfront.net/data-query/65553d11621c9500088edf01"
+            fixed="true"
+            type="categorical"
+            colorscheme="d3-cool"
+            dataColumn="Disadvantaged Status"
+            beforeId="Country border"
+          >
+          </osl-map-layer>
+          <osl-map-layer
+            beforeId="Country border"
+            legendTitle="Tree Genus"
+            visible="true"
+            geoType="WKB"
+            geoColumn="geometry"
+            filled="true"
+            attribution="Groundwork Bridgeport"
+            layer="circle"
+            type="categorical"
+            colorscheme="d3-turbo"
+            staticRadius="8"
+            datacolumn="genus"
+            staticStroke="[0,0,0, 120]"
+            lineWidthMaxPixels="1"
+            lineWidthMinPixels="0"
+            pointRadiusMinPixels="3"
+            pointRadiusMaxPixels="8"
+            stroked="true"
+            data="https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff"
+          >
+          </osl-map-layer>
+          <osl-map-layer
+            beforeId="Country border"
+            legendTitle="Tree Species"
+            visible="false"
+            geoType="WKB"
+            geoColumn="geometry"
+            filled="true"
+            attribution="Groundwork Bridgeport"
+            layer="circle"
+            type="categorical"
+            colorscheme="d3-turbo"
+            staticRadius="8"
+            datacolumn="Scientific"
+            staticStroke="[0,0,0, 120]"
+            lineWidthMaxPixels="1"
+            lineWidthMinPixels="0"
+            pointRadiusMinPixels="3"
+            pointRadiusMaxPixels="8"
+            stroked="true"
+            data="https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff"
+          >
+          </osl-map-layer>
+      
+          <osl-map-layer
+            beforeId="Country border"
+            legendTitle="Diameter at Breast Height (DBH) "
+            visible="false"
+            geoType="WKB"
+            geoColumn="geometry"
+            filled="true"
+            attribution="Groundwork Bridgeport"
+            layer="circle"
+            type="continuous"
+            colorscheme="d3-cool"
+            datacolumn="DBH"
+            staticStroke="[0,0,0, 120]"
+            lineWidthMaxPixels="1"
+            lineWidthMinPixels="0"
+            pointRadiusMinPixels="1"
+            pointRadiusMaxPixels="10"
+            stroked="true"
+            method="EQI"
+            data="https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff"
+          >
+          </osl-map-layer>
+          <osl-map-layer
+            beforeId="Country border"
+            legendTitle="Tree Locations (No Styling)"
+            visible="false"
+            geoType="WKB"
+            geoColumn="geometry"
+            filled="true"
+            attribution="Groundwork Bridgeport"
+            layer="circle"
+            type="static"
+            pointRadiusMinPixels="1"
+            pointRadiusMaxPixels="8"
+            staticRadius="6"
+            statisFill="[0,0,0]"
+            stroked="true"
+            staticStroke="[0,0,0]"
+            data="https://d148axxp71p64w.cloudfront.net/data-query/65553bbd621c9500088edeff"
+          >
+          </osl-map-layer>
+      
+            </osl-glmap>
+          </div>
+          <div style="position:relative;height:40vh;width:100%;">
+            <h3>Trees Over Time</h3>
+            <osl-plot
+              colorLegend="true"
+              data="https://d148axxp71p64w.cloudfront.net/data-query/655530b0eae2010008c783cf"
+              marginBottom="80"
+              marginRight="80"
+              colorScheme="accent"
+            >
+              <osl-line x="monthyear" y="count"></osl-line>
+              <osl-axis
+                tickRotate="45"
+                axis="x"
+                label="Month and Year"
+              ></osl-axis>
+            </osl-plot>
+          </div>
+        </div>
+      </osl-flex-box>
+    </sp-theme>
+  </main>
+</body>
+</html>
