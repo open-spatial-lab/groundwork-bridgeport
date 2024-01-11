@@ -1,11 +1,21 @@
-# Groundwork Bridgeport
+# Groundwork Bridgeport: Tree Equity Explorer
 
-OSL Data Collaboratory 2023: Groundwork Bridgeport
+## About
 
+### OSL Data Collaboratory
+This project is part of the Open Spatial Lab's 2023 Data Collaboratory. The Collaboratory is a 6-month program where OSL engages with social impact organizations to build a customized tool for data management, analysis, communication, and visualization. Engagement and feedback from Groundwork Bridgeport directly informed this work. 
+
+Based at the University of Chicago Data Science Institute, the Open Spatial Lab creates open source data tools and analytics to solve problems using geospatial data science. Read more about OSL at https://datascience.uchicago.edu/research/open-spatial-lab/. 
+
+### Project Scope
+**About**: [Groundwork Bridgeport](https://www.groundworkbridgeport.org/) is a community-based non-profit organization in Bridgeport, CT, with a mission to bring about the sustained regeneration, improvement, and management of the physical environment by empowering people, businesses, and organizations. Groundwork Bridgeport works convert blighted areas into gardens, parks, playgrounds, and other open spaces that instill pride in the community. 
+
+**Project**: OSL worked with Groundwork Bridgeport to develop an interactive data platform for tracking its tree planting and impact spanning multiple programs. The tool is integrated with existing tree databases to track and visualize metrics, including environmental and social impact trends over time. The tree data tool will also integrate socioeconomic data to highlight communities disproportionately harmed by environmental racism or opportunities for more equitable tree planting and coverage. OSL and Groundwork Bridgeport will expand this work in a project funded by the USDA Forest Service Urban and Community Forestry Program in 2024. 
 
 ## Data Biography
+
 ### Demographic
-Demographic variables are from the American Community Surveys (2017-2021 5-Year Estimates) via [Social Explorer](https://www.socialexplorer.com/explore-tables). Demographic variables include:
+Demographic variables are from the American Community Surveys (2021 5-Year Estimates) via [Social Explorer](https://www.socialexplorer.com/explore-tables). Demographic variables include:
 - Census Tract GEOID
 - A14006. Median Household Income (In 2021 Inflation Adjusted Dollar)
 - A13003A. Poverty Status in 2020 for Children Under 18
